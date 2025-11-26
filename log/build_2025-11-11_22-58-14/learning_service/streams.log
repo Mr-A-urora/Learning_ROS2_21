@@ -1,0 +1,49 @@
+[0.673s] Invoking command in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_service': AMENT_PREFIX_PATH=/home/mraurora/Learning_ROS2_21/install/learning_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mraurora/Learning_ROS2_21/install/learning_interface LD_LIBRARY_PATH=/home/mraurora/Learning_ROS2_21/install/learning_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mraurora/Learning_ROS2_21/build/learning_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mraurora/Learning_ROS2_21/install/learning_service/lib/python3.10/site-packages:/home/mraurora/Learning_ROS2_21/install/learning_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_service build --build-base /home/mraurora/Learning_ROS2_21/build/learning_service/build install --record /home/mraurora/Learning_ROS2_21/build/learning_service/install.log --single-version-externally-managed install_data
+[0.817s] running egg_info
+[0.817s] creating ../../../build/learning_service/learning_service.egg-info
+[0.817s] writing ../../../build/learning_service/learning_service.egg-info/PKG-INFO
+[0.818s] writing dependency_links to ../../../build/learning_service/learning_service.egg-info/dependency_links.txt
+[0.818s] writing entry points to ../../../build/learning_service/learning_service.egg-info/entry_points.txt
+[0.818s] writing requirements to ../../../build/learning_service/learning_service.egg-info/requires.txt
+[0.818s] writing top-level names to ../../../build/learning_service/learning_service.egg-info/top_level.txt
+[0.818s] writing manifest file '../../../build/learning_service/learning_service.egg-info/SOURCES.txt'
+[0.819s] reading manifest file '../../../build/learning_service/learning_service.egg-info/SOURCES.txt'
+[0.819s] writing manifest file '../../../build/learning_service/learning_service.egg-info/SOURCES.txt'
+[0.819s] running build
+[0.819s] running build_py
+[0.820s] creating /home/mraurora/Learning_ROS2_21/build/learning_service/build
+[0.820s] creating /home/mraurora/Learning_ROS2_21/build/learning_service/build/lib
+[0.820s] creating /home/mraurora/Learning_ROS2_21/build/learning_service/build/lib/learning_service
+[0.820s] copying learning_service/service_object_client.py -> /home/mraurora/Learning_ROS2_21/build/learning_service/build/lib/learning_service
+[0.820s] copying learning_service/service_adder_server.py -> /home/mraurora/Learning_ROS2_21/build/learning_service/build/lib/learning_service
+[0.820s] copying learning_service/service_adder_client.py -> /home/mraurora/Learning_ROS2_21/build/learning_service/build/lib/learning_service
+[0.820s] copying learning_service/__init__.py -> /home/mraurora/Learning_ROS2_21/build/learning_service/build/lib/learning_service
+[0.820s] copying learning_service/service_object_server.py -> /home/mraurora/Learning_ROS2_21/build/learning_service/build/lib/learning_service
+[0.820s] running install
+[0.820s] running install_lib
+[0.821s] creating /home/mraurora/Learning_ROS2_21/install/learning_service/lib/python3.10/site-packages/learning_service
+[0.821s] copying /home/mraurora/Learning_ROS2_21/build/learning_service/build/lib/learning_service/service_object_client.py -> /home/mraurora/Learning_ROS2_21/install/learning_service/lib/python3.10/site-packages/learning_service
+[0.821s] copying /home/mraurora/Learning_ROS2_21/build/learning_service/build/lib/learning_service/service_adder_server.py -> /home/mraurora/Learning_ROS2_21/install/learning_service/lib/python3.10/site-packages/learning_service
+[0.821s] copying /home/mraurora/Learning_ROS2_21/build/learning_service/build/lib/learning_service/service_adder_client.py -> /home/mraurora/Learning_ROS2_21/install/learning_service/lib/python3.10/site-packages/learning_service
+[0.821s] copying /home/mraurora/Learning_ROS2_21/build/learning_service/build/lib/learning_service/__init__.py -> /home/mraurora/Learning_ROS2_21/install/learning_service/lib/python3.10/site-packages/learning_service
+[0.821s] copying /home/mraurora/Learning_ROS2_21/build/learning_service/build/lib/learning_service/service_object_server.py -> /home/mraurora/Learning_ROS2_21/install/learning_service/lib/python3.10/site-packages/learning_service
+[0.821s] byte-compiling /home/mraurora/Learning_ROS2_21/install/learning_service/lib/python3.10/site-packages/learning_service/service_object_client.py to service_object_client.cpython-310.pyc
+[0.822s] byte-compiling /home/mraurora/Learning_ROS2_21/install/learning_service/lib/python3.10/site-packages/learning_service/service_adder_server.py to service_adder_server.cpython-310.pyc
+[0.822s] byte-compiling /home/mraurora/Learning_ROS2_21/install/learning_service/lib/python3.10/site-packages/learning_service/service_adder_client.py to service_adder_client.cpython-310.pyc
+[0.822s] byte-compiling /home/mraurora/Learning_ROS2_21/install/learning_service/lib/python3.10/site-packages/learning_service/__init__.py to __init__.cpython-310.pyc
+[0.822s] byte-compiling /home/mraurora/Learning_ROS2_21/install/learning_service/lib/python3.10/site-packages/learning_service/service_object_server.py to service_object_server.cpython-310.pyc
+[0.823s] running install_data
+[0.823s] creating /home/mraurora/Learning_ROS2_21/install/learning_service/share/ament_index
+[0.823s] creating /home/mraurora/Learning_ROS2_21/install/learning_service/share/ament_index/resource_index
+[0.823s] creating /home/mraurora/Learning_ROS2_21/install/learning_service/share/ament_index/resource_index/packages
+[0.823s] copying resource/learning_service -> /home/mraurora/Learning_ROS2_21/install/learning_service/share/ament_index/resource_index/packages
+[0.823s] copying package.xml -> /home/mraurora/Learning_ROS2_21/install/learning_service/share/learning_service
+[0.823s] running install_egg_info
+[0.825s] Copying ../../../build/learning_service/learning_service.egg-info to /home/mraurora/Learning_ROS2_21/install/learning_service/lib/python3.10/site-packages/learning_service-0.0.0-py3.10.egg-info
+[0.825s] running install_scripts
+[0.840s] Installing service_adder_client script to /home/mraurora/Learning_ROS2_21/install/learning_service/lib/learning_service
+[0.841s] Installing service_adder_server script to /home/mraurora/Learning_ROS2_21/install/learning_service/lib/learning_service
+[0.841s] Installing service_object_client script to /home/mraurora/Learning_ROS2_21/install/learning_service/lib/learning_service
+[0.841s] Installing service_object_server script to /home/mraurora/Learning_ROS2_21/install/learning_service/lib/learning_service
+[0.841s] writing list of installed files to '/home/mraurora/Learning_ROS2_21/build/learning_service/install.log'
+[0.862s] Invoked command in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_service' returned '0': AMENT_PREFIX_PATH=/home/mraurora/Learning_ROS2_21/install/learning_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mraurora/Learning_ROS2_21/install/learning_interface LD_LIBRARY_PATH=/home/mraurora/Learning_ROS2_21/install/learning_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mraurora/Learning_ROS2_21/build/learning_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mraurora/Learning_ROS2_21/install/learning_service/lib/python3.10/site-packages:/home/mraurora/Learning_ROS2_21/install/learning_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_service build --build-base /home/mraurora/Learning_ROS2_21/build/learning_service/build install --record /home/mraurora/Learning_ROS2_21/build/learning_service/install.log --single-version-externally-managed install_data

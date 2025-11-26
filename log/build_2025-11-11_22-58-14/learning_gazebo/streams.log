@@ -1,0 +1,64 @@
+[1.848s] Invoking command in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_gazebo': PYTHONPATH=/home/mraurora/Learning_ROS2_21/build/learning_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mraurora/Learning_ROS2_21/install/learning_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_gazebo build --build-base /home/mraurora/Learning_ROS2_21/build/learning_gazebo/build install --record /home/mraurora/Learning_ROS2_21/build/learning_gazebo/install.log --single-version-externally-managed install_data
+[2.085s] running egg_info
+[2.086s] creating ../../../build/learning_gazebo/learning_gazebo.egg-info
+[2.086s] writing ../../../build/learning_gazebo/learning_gazebo.egg-info/PKG-INFO
+[2.086s] writing dependency_links to ../../../build/learning_gazebo/learning_gazebo.egg-info/dependency_links.txt
+[2.086s] writing entry points to ../../../build/learning_gazebo/learning_gazebo.egg-info/entry_points.txt
+[2.086s] writing requirements to ../../../build/learning_gazebo/learning_gazebo.egg-info/requires.txt
+[2.086s] writing top-level names to ../../../build/learning_gazebo/learning_gazebo.egg-info/top_level.txt
+[2.087s] writing manifest file '../../../build/learning_gazebo/learning_gazebo.egg-info/SOURCES.txt'
+[2.089s] reading manifest file '../../../build/learning_gazebo/learning_gazebo.egg-info/SOURCES.txt'
+[2.090s] writing manifest file '../../../build/learning_gazebo/learning_gazebo.egg-info/SOURCES.txt'
+[2.090s] running build
+[2.090s] running build_py
+[2.090s] creating /home/mraurora/Learning_ROS2_21/build/learning_gazebo/build
+[2.090s] creating /home/mraurora/Learning_ROS2_21/build/learning_gazebo/build/lib
+[2.090s] creating /home/mraurora/Learning_ROS2_21/build/learning_gazebo/build/lib/learning_gazebo
+[2.090s] copying learning_gazebo/__init__.py -> /home/mraurora/Learning_ROS2_21/build/learning_gazebo/build/lib/learning_gazebo
+[2.090s] running install
+[2.091s] running install_lib
+[2.091s] creating /home/mraurora/Learning_ROS2_21/install/learning_gazebo/lib/python3.10/site-packages/learning_gazebo
+[2.092s] copying /home/mraurora/Learning_ROS2_21/build/learning_gazebo/build/lib/learning_gazebo/__init__.py -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo/lib/python3.10/site-packages/learning_gazebo
+[2.092s] byte-compiling /home/mraurora/Learning_ROS2_21/install/learning_gazebo/lib/python3.10/site-packages/learning_gazebo/__init__.py to __init__.cpython-310.pyc
+[2.092s] running install_data
+[2.092s] creating /home/mraurora/Learning_ROS2_21/install/learning_gazebo/share/ament_index
+[2.092s] creating /home/mraurora/Learning_ROS2_21/install/learning_gazebo/share/ament_index/resource_index
+[2.092s] creating /home/mraurora/Learning_ROS2_21/install/learning_gazebo/share/ament_index/resource_index/packages
+[2.093s] copying resource/learning_gazebo -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo/share/ament_index/resource_index/packages
+[2.093s] copying package.xml -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo/share/learning_gazebo
+[2.093s] creating /home/mraurora/Learning_ROS2_21/install/learning_gazebo/share/learning_gazebo/launch
+[2.093s] copying launch/mbot_rgbd.launch.py -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo/share/learning_gazebo/launch
+[2.093s] copying launch/mbot.launch.py -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo/share/learning_gazebo/launch
+[2.093s] copying launch/load_mbot_camera_into_gazebo.launch.py -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo/share/learning_gazebo/launch
+[2.093s] copying launch/mbot_laser.launch.py -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo/share/learning_gazebo/launch
+[2.093s] copying launch/load_urdf_into_gazebo.launch.py -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo/share/learning_gazebo/launch
+[2.093s] copying launch/mbot_camera.launch.py -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo/share/learning_gazebo/launch
+[2.093s] copying launch/load_mbot_laser_into_gazebo.launch.py -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo/share/learning_gazebo/launch
+[2.094s] copying launch/load_mbot_rgbd_into_gazebo.launch.py -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo/share/learning_gazebo/launch
+[2.094s] creating /home/mraurora/Learning_ROS2_21/install/learning_gazebo/share/learning_gazebo/urdf
+[2.094s] copying urdf/mbot_with_camera_gazebo.xacro -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo/share/learning_gazebo/urdf
+[2.094s] copying urdf/mbot_base_gazebo.xacro -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo/share/learning_gazebo/urdf
+[2.094s] copying urdf/mbot_gazebo.xacro -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo/share/learning_gazebo/urdf
+[2.094s] copying urdf/two_wheeled_robot_nav2.urdf -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo/share/learning_gazebo/urdf
+[2.094s] copying urdf/mbot_with_laser_gazebo.xacro -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo/share/learning_gazebo/urdf
+[2.094s] copying urdf/mbot_with_kinect_gazebo.xacro -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo/share/learning_gazebo/urdf
+[2.094s] copying urdf/mbot_with_rgbd_gazebo.xacro -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo/share/learning_gazebo/urdf
+[2.094s] creating /home/mraurora/Learning_ROS2_21/install/learning_gazebo/share/learning_gazebo/meshes
+[2.094s] copying meshes/kinect.tga -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo/share/learning_gazebo/meshes
+[2.095s] copying meshes/kinect.jpg -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo/share/learning_gazebo/meshes
+[2.095s] copying meshes/kinect.dae -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo/share/learning_gazebo/meshes
+[2.095s] creating /home/mraurora/Learning_ROS2_21/install/learning_gazebo/share/learning_gazebo/urdf/sensors
+[2.096s] copying urdf/sensors/rgbd_gazebo.xacro -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo/share/learning_gazebo/urdf/sensors
+[2.096s] copying urdf/sensors/kinect_gazebo.xacro -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo/share/learning_gazebo/urdf/sensors
+[2.096s] copying urdf/sensors/camera_gazebo.xacro -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo/share/learning_gazebo/urdf/sensors
+[2.096s] copying urdf/sensors/lidar_gazebo.xacro -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo/share/learning_gazebo/urdf/sensors
+[2.096s] creating /home/mraurora/Learning_ROS2_21/install/learning_gazebo/share/learning_gazebo/worlds
+[2.096s] copying worlds/neighborhood.world -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo/share/learning_gazebo/worlds
+[2.096s] copying worlds/empty_world.model -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo/share/learning_gazebo/worlds
+[2.096s] creating /home/mraurora/Learning_ROS2_21/install/learning_gazebo/share/learning_gazebo/rviz
+[2.096s] copying rviz/urdf_gazebo_config.rviz -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo/share/learning_gazebo/rviz
+[2.097s] running install_egg_info
+[2.099s] Copying ../../../build/learning_gazebo/learning_gazebo.egg-info to /home/mraurora/Learning_ROS2_21/install/learning_gazebo/lib/python3.10/site-packages/learning_gazebo-0.0.0-py3.10.egg-info
+[2.100s] running install_scripts
+[2.126s] writing list of installed files to '/home/mraurora/Learning_ROS2_21/build/learning_gazebo/install.log'
+[2.154s] Invoked command in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_gazebo' returned '0': PYTHONPATH=/home/mraurora/Learning_ROS2_21/build/learning_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mraurora/Learning_ROS2_21/install/learning_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_gazebo build --build-base /home/mraurora/Learning_ROS2_21/build/learning_gazebo/build install --record /home/mraurora/Learning_ROS2_21/build/learning_gazebo/install.log --single-version-externally-managed install_data

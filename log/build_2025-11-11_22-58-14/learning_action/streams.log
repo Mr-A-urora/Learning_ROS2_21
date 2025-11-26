@@ -1,0 +1,41 @@
+[0.844s] Invoking command in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_action': AMENT_PREFIX_PATH=/home/mraurora/Learning_ROS2_21/install/learning_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mraurora/Learning_ROS2_21/install/learning_interface LD_LIBRARY_PATH=/home/mraurora/Learning_ROS2_21/install/learning_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mraurora/Learning_ROS2_21/build/learning_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mraurora/Learning_ROS2_21/install/learning_action/lib/python3.10/site-packages:/home/mraurora/Learning_ROS2_21/install/learning_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_action build --build-base /home/mraurora/Learning_ROS2_21/build/learning_action/build install --record /home/mraurora/Learning_ROS2_21/build/learning_action/install.log --single-version-externally-managed install_data
+[1.051s] running egg_info
+[1.051s] creating ../../../build/learning_action/learning_action.egg-info
+[1.051s] writing ../../../build/learning_action/learning_action.egg-info/PKG-INFO
+[1.051s] writing dependency_links to ../../../build/learning_action/learning_action.egg-info/dependency_links.txt
+[1.051s] writing entry points to ../../../build/learning_action/learning_action.egg-info/entry_points.txt
+[1.051s] writing requirements to ../../../build/learning_action/learning_action.egg-info/requires.txt
+[1.051s] writing top-level names to ../../../build/learning_action/learning_action.egg-info/top_level.txt
+[1.052s] writing manifest file '../../../build/learning_action/learning_action.egg-info/SOURCES.txt'
+[1.052s] reading manifest file '../../../build/learning_action/learning_action.egg-info/SOURCES.txt'
+[1.053s] writing manifest file '../../../build/learning_action/learning_action.egg-info/SOURCES.txt'
+[1.053s] running build
+[1.053s] running build_py
+[1.053s] creating /home/mraurora/Learning_ROS2_21/build/learning_action/build
+[1.053s] creating /home/mraurora/Learning_ROS2_21/build/learning_action/build/lib
+[1.053s] creating /home/mraurora/Learning_ROS2_21/build/learning_action/build/lib/learning_action
+[1.053s] copying learning_action/action_move_client.py -> /home/mraurora/Learning_ROS2_21/build/learning_action/build/lib/learning_action
+[1.053s] copying learning_action/__init__.py -> /home/mraurora/Learning_ROS2_21/build/learning_action/build/lib/learning_action
+[1.054s] copying learning_action/action_move_server.py -> /home/mraurora/Learning_ROS2_21/build/learning_action/build/lib/learning_action
+[1.054s] running install
+[1.054s] running install_lib
+[1.054s] creating /home/mraurora/Learning_ROS2_21/install/learning_action/lib/python3.10/site-packages/learning_action
+[1.054s] copying /home/mraurora/Learning_ROS2_21/build/learning_action/build/lib/learning_action/action_move_client.py -> /home/mraurora/Learning_ROS2_21/install/learning_action/lib/python3.10/site-packages/learning_action
+[1.054s] copying /home/mraurora/Learning_ROS2_21/build/learning_action/build/lib/learning_action/__init__.py -> /home/mraurora/Learning_ROS2_21/install/learning_action/lib/python3.10/site-packages/learning_action
+[1.054s] copying /home/mraurora/Learning_ROS2_21/build/learning_action/build/lib/learning_action/action_move_server.py -> /home/mraurora/Learning_ROS2_21/install/learning_action/lib/python3.10/site-packages/learning_action
+[1.054s] byte-compiling /home/mraurora/Learning_ROS2_21/install/learning_action/lib/python3.10/site-packages/learning_action/action_move_client.py to action_move_client.cpython-310.pyc
+[1.055s] byte-compiling /home/mraurora/Learning_ROS2_21/install/learning_action/lib/python3.10/site-packages/learning_action/__init__.py to __init__.cpython-310.pyc
+[1.055s] byte-compiling /home/mraurora/Learning_ROS2_21/install/learning_action/lib/python3.10/site-packages/learning_action/action_move_server.py to action_move_server.cpython-310.pyc
+[1.055s] running install_data
+[1.055s] creating /home/mraurora/Learning_ROS2_21/install/learning_action/share/ament_index
+[1.055s] creating /home/mraurora/Learning_ROS2_21/install/learning_action/share/ament_index/resource_index
+[1.055s] creating /home/mraurora/Learning_ROS2_21/install/learning_action/share/ament_index/resource_index/packages
+[1.055s] copying resource/learning_action -> /home/mraurora/Learning_ROS2_21/install/learning_action/share/ament_index/resource_index/packages
+[1.055s] copying package.xml -> /home/mraurora/Learning_ROS2_21/install/learning_action/share/learning_action
+[1.055s] running install_egg_info
+[1.056s] Copying ../../../build/learning_action/learning_action.egg-info to /home/mraurora/Learning_ROS2_21/install/learning_action/lib/python3.10/site-packages/learning_action-0.0.0-py3.10.egg-info
+[1.057s] running install_scripts
+[1.076s] Installing action_move_client script to /home/mraurora/Learning_ROS2_21/install/learning_action/lib/learning_action
+[1.076s] Installing action_move_server script to /home/mraurora/Learning_ROS2_21/install/learning_action/lib/learning_action
+[1.076s] writing list of installed files to '/home/mraurora/Learning_ROS2_21/build/learning_action/install.log'
+[1.095s] Invoked command in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_action' returned '0': AMENT_PREFIX_PATH=/home/mraurora/Learning_ROS2_21/install/learning_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mraurora/Learning_ROS2_21/install/learning_interface LD_LIBRARY_PATH=/home/mraurora/Learning_ROS2_21/install/learning_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mraurora/Learning_ROS2_21/build/learning_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mraurora/Learning_ROS2_21/install/learning_action/lib/python3.10/site-packages:/home/mraurora/Learning_ROS2_21/install/learning_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_action build --build-base /home/mraurora/Learning_ROS2_21/build/learning_action/build install --record /home/mraurora/Learning_ROS2_21/build/learning_action/install.log --single-version-externally-managed install_data

@@ -1,0 +1,24 @@
+[2.363s] Invoking command in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_tf': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/mraurora/Learning_ROS2_21/build/learning_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mraurora/Learning_ROS2_21/install/learning_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_tf build --build-base /home/mraurora/Learning_ROS2_21/build/learning_tf/build install --record /home/mraurora/Learning_ROS2_21/build/learning_tf/install.log --single-version-externally-managed install_data
+[2.603s] running egg_info
+[2.603s] writing ../../../build/learning_tf/learning_tf.egg-info/PKG-INFO
+[2.603s] writing dependency_links to ../../../build/learning_tf/learning_tf.egg-info/dependency_links.txt
+[2.603s] writing entry points to ../../../build/learning_tf/learning_tf.egg-info/entry_points.txt
+[2.604s] writing requirements to ../../../build/learning_tf/learning_tf.egg-info/requires.txt
+[2.604s] writing top-level names to ../../../build/learning_tf/learning_tf.egg-info/top_level.txt
+[2.604s] reading manifest file '../../../build/learning_tf/learning_tf.egg-info/SOURCES.txt'
+[2.605s] writing manifest file '../../../build/learning_tf/learning_tf.egg-info/SOURCES.txt'
+[2.605s] running build
+[2.605s] running build_py
+[2.606s] running install
+[2.606s] running install_lib
+[2.607s] running install_data
+[2.607s] running install_egg_info
+[2.608s] removing '/home/mraurora/Learning_ROS2_21/install/learning_tf/lib/python3.10/site-packages/learning_tf-0.0.0-py3.10.egg-info' (and everything under it)
+[2.608s] Copying ../../../build/learning_tf/learning_tf.egg-info to /home/mraurora/Learning_ROS2_21/install/learning_tf/lib/python3.10/site-packages/learning_tf-0.0.0-py3.10.egg-info
+[2.609s] running install_scripts
+[2.627s] Installing static_tf_broadcaster script to /home/mraurora/Learning_ROS2_21/install/learning_tf/lib/learning_tf
+[2.627s] Installing tf_listener script to /home/mraurora/Learning_ROS2_21/install/learning_tf/lib/learning_tf
+[2.627s] Installing turtle_following script to /home/mraurora/Learning_ROS2_21/install/learning_tf/lib/learning_tf
+[2.627s] Installing turtle_tf_broadcaster script to /home/mraurora/Learning_ROS2_21/install/learning_tf/lib/learning_tf
+[2.627s] writing list of installed files to '/home/mraurora/Learning_ROS2_21/build/learning_tf/install.log'
+[2.648s] Invoked command in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_tf' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/mraurora/Learning_ROS2_21/build/learning_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mraurora/Learning_ROS2_21/install/learning_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_tf build --build-base /home/mraurora/Learning_ROS2_21/build/learning_tf/build install --record /home/mraurora/Learning_ROS2_21/build/learning_tf/install.log --single-version-externally-managed install_data

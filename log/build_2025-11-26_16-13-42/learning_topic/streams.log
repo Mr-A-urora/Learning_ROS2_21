@@ -1,0 +1,26 @@
+[1.409s] Invoking command in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_topic': CMAKE_PREFIX_PATH=/home/mraurora/Learning_ROS2_21/install/learning_interface:/home/mraurora/Learning_ROS2_21/install/learning_topic_cpp:/home/mraurora/Learning_ROS2_21/install/learning_tf_cpp:/home/mraurora/Learning_ROS2_21/install/learning_service_cpp:/home/mraurora/Learning_ROS2_21/install/learning_pkg_c:/home/mraurora/Learning_ROS2_21/install/learning_parameter_cpp:/home/mraurora/Learning_ROS2_21/install/learning_node_cpp:/home/mraurora/Learning_ROS2_21/install/learning_action_cpp CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/mraurora/Learning_ROS2_21/build/learning_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mraurora/Learning_ROS2_21/install/learning_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_topic build --build-base /home/mraurora/Learning_ROS2_21/build/learning_topic/build install --record /home/mraurora/Learning_ROS2_21/build/learning_topic/install.log --single-version-externally-managed install_data
+[1.748s] running egg_info
+[1.749s] writing ../../../build/learning_topic/learning_topic.egg-info/PKG-INFO
+[1.749s] writing dependency_links to ../../../build/learning_topic/learning_topic.egg-info/dependency_links.txt
+[1.749s] writing entry points to ../../../build/learning_topic/learning_topic.egg-info/entry_points.txt
+[1.749s] writing requirements to ../../../build/learning_topic/learning_topic.egg-info/requires.txt
+[1.749s] writing top-level names to ../../../build/learning_topic/learning_topic.egg-info/top_level.txt
+[1.753s] reading manifest file '../../../build/learning_topic/learning_topic.egg-info/SOURCES.txt'
+[1.754s] writing manifest file '../../../build/learning_topic/learning_topic.egg-info/SOURCES.txt'
+[1.755s] running build
+[1.755s] running build_py
+[1.758s] running install
+[1.758s] running install_lib
+[1.765s] running install_data
+[1.765s] running install_egg_info
+[1.767s] removing '/home/mraurora/Learning_ROS2_21/install/learning_topic/lib/python3.10/site-packages/learning_topic-0.0.0-py3.10.egg-info' (and everything under it)
+[1.767s] Copying ../../../build/learning_topic/learning_topic.egg-info to /home/mraurora/Learning_ROS2_21/install/learning_topic/lib/python3.10/site-packages/learning_topic-0.0.0-py3.10.egg-info
+[1.770s] running install_scripts
+[1.799s] Installing interface_object_pub script to /home/mraurora/Learning_ROS2_21/install/learning_topic/lib/learning_topic
+[1.799s] Installing interface_object_sub script to /home/mraurora/Learning_ROS2_21/install/learning_topic/lib/learning_topic
+[1.799s] Installing topic_helloworld_pub script to /home/mraurora/Learning_ROS2_21/install/learning_topic/lib/learning_topic
+[1.800s] Installing topic_helloworld_sub script to /home/mraurora/Learning_ROS2_21/install/learning_topic/lib/learning_topic
+[1.800s] Installing topic_webcam_pub script to /home/mraurora/Learning_ROS2_21/install/learning_topic/lib/learning_topic
+[1.800s] Installing topic_webcam_sub script to /home/mraurora/Learning_ROS2_21/install/learning_topic/lib/learning_topic
+[1.803s] writing list of installed files to '/home/mraurora/Learning_ROS2_21/build/learning_topic/install.log'
+[1.860s] Invoked command in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_topic' returned '0': CMAKE_PREFIX_PATH=/home/mraurora/Learning_ROS2_21/install/learning_interface:/home/mraurora/Learning_ROS2_21/install/learning_topic_cpp:/home/mraurora/Learning_ROS2_21/install/learning_tf_cpp:/home/mraurora/Learning_ROS2_21/install/learning_service_cpp:/home/mraurora/Learning_ROS2_21/install/learning_pkg_c:/home/mraurora/Learning_ROS2_21/install/learning_parameter_cpp:/home/mraurora/Learning_ROS2_21/install/learning_node_cpp:/home/mraurora/Learning_ROS2_21/install/learning_action_cpp CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/mraurora/Learning_ROS2_21/build/learning_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mraurora/Learning_ROS2_21/install/learning_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_topic build --build-base /home/mraurora/Learning_ROS2_21/build/learning_topic/build install --record /home/mraurora/Learning_ROS2_21/build/learning_topic/install.log --single-version-externally-managed install_data

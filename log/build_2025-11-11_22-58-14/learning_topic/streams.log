@@ -1,0 +1,57 @@
+[0.678s] Invoking command in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_topic': AMENT_PREFIX_PATH=/home/mraurora/Learning_ROS2_21/install/learning_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mraurora/Learning_ROS2_21/install/learning_interface LD_LIBRARY_PATH=/home/mraurora/Learning_ROS2_21/install/learning_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mraurora/Learning_ROS2_21/build/learning_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mraurora/Learning_ROS2_21/install/learning_topic/lib/python3.10/site-packages:/home/mraurora/Learning_ROS2_21/install/learning_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_topic build --build-base /home/mraurora/Learning_ROS2_21/build/learning_topic/build install --record /home/mraurora/Learning_ROS2_21/build/learning_topic/install.log --single-version-externally-managed install_data
+[0.817s] running egg_info
+[0.817s] creating ../../../build/learning_topic/learning_topic.egg-info
+[0.817s] writing ../../../build/learning_topic/learning_topic.egg-info/PKG-INFO
+[0.817s] writing dependency_links to ../../../build/learning_topic/learning_topic.egg-info/dependency_links.txt
+[0.817s] writing entry points to ../../../build/learning_topic/learning_topic.egg-info/entry_points.txt
+[0.817s] writing requirements to ../../../build/learning_topic/learning_topic.egg-info/requires.txt
+[0.817s] writing top-level names to ../../../build/learning_topic/learning_topic.egg-info/top_level.txt
+[0.817s] writing manifest file '../../../build/learning_topic/learning_topic.egg-info/SOURCES.txt'
+[0.818s] reading manifest file '../../../build/learning_topic/learning_topic.egg-info/SOURCES.txt'
+[0.818s] writing manifest file '../../../build/learning_topic/learning_topic.egg-info/SOURCES.txt'
+[0.819s] running build
+[0.819s] running build_py
+[0.819s] creating /home/mraurora/Learning_ROS2_21/build/learning_topic/build
+[0.819s] creating /home/mraurora/Learning_ROS2_21/build/learning_topic/build/lib
+[0.819s] creating /home/mraurora/Learning_ROS2_21/build/learning_topic/build/lib/learning_topic
+[0.819s] copying learning_topic/topic_webcam_sub.py -> /home/mraurora/Learning_ROS2_21/build/learning_topic/build/lib/learning_topic
+[0.819s] copying learning_topic/topic_helloworld_sub.py -> /home/mraurora/Learning_ROS2_21/build/learning_topic/build/lib/learning_topic
+[0.819s] copying learning_topic/interface_object_pub.py -> /home/mraurora/Learning_ROS2_21/build/learning_topic/build/lib/learning_topic
+[0.819s] copying learning_topic/__init__.py -> /home/mraurora/Learning_ROS2_21/build/learning_topic/build/lib/learning_topic
+[0.820s] copying learning_topic/topic_helloworld_pub.py -> /home/mraurora/Learning_ROS2_21/build/learning_topic/build/lib/learning_topic
+[0.820s] copying learning_topic/interface_object_sub.py -> /home/mraurora/Learning_ROS2_21/build/learning_topic/build/lib/learning_topic
+[0.820s] copying learning_topic/topic_webcam_pub.py -> /home/mraurora/Learning_ROS2_21/build/learning_topic/build/lib/learning_topic
+[0.820s] running install
+[0.820s] running install_lib
+[0.820s] creating /home/mraurora/Learning_ROS2_21/install/learning_topic/lib/python3.10/site-packages/learning_topic
+[0.820s] copying /home/mraurora/Learning_ROS2_21/build/learning_topic/build/lib/learning_topic/topic_webcam_sub.py -> /home/mraurora/Learning_ROS2_21/install/learning_topic/lib/python3.10/site-packages/learning_topic
+[0.820s] copying /home/mraurora/Learning_ROS2_21/build/learning_topic/build/lib/learning_topic/topic_helloworld_sub.py -> /home/mraurora/Learning_ROS2_21/install/learning_topic/lib/python3.10/site-packages/learning_topic
+[0.820s] copying /home/mraurora/Learning_ROS2_21/build/learning_topic/build/lib/learning_topic/interface_object_pub.py -> /home/mraurora/Learning_ROS2_21/install/learning_topic/lib/python3.10/site-packages/learning_topic
+[0.821s] copying /home/mraurora/Learning_ROS2_21/build/learning_topic/build/lib/learning_topic/__init__.py -> /home/mraurora/Learning_ROS2_21/install/learning_topic/lib/python3.10/site-packages/learning_topic
+[0.821s] copying /home/mraurora/Learning_ROS2_21/build/learning_topic/build/lib/learning_topic/topic_helloworld_pub.py -> /home/mraurora/Learning_ROS2_21/install/learning_topic/lib/python3.10/site-packages/learning_topic
+[0.821s] copying /home/mraurora/Learning_ROS2_21/build/learning_topic/build/lib/learning_topic/interface_object_sub.py -> /home/mraurora/Learning_ROS2_21/install/learning_topic/lib/python3.10/site-packages/learning_topic
+[0.821s] copying /home/mraurora/Learning_ROS2_21/build/learning_topic/build/lib/learning_topic/topic_webcam_pub.py -> /home/mraurora/Learning_ROS2_21/install/learning_topic/lib/python3.10/site-packages/learning_topic
+[0.821s] byte-compiling /home/mraurora/Learning_ROS2_21/install/learning_topic/lib/python3.10/site-packages/learning_topic/topic_webcam_sub.py to topic_webcam_sub.cpython-310.pyc
+[0.821s] byte-compiling /home/mraurora/Learning_ROS2_21/install/learning_topic/lib/python3.10/site-packages/learning_topic/topic_helloworld_sub.py to topic_helloworld_sub.cpython-310.pyc
+[0.821s] byte-compiling /home/mraurora/Learning_ROS2_21/install/learning_topic/lib/python3.10/site-packages/learning_topic/interface_object_pub.py to interface_object_pub.cpython-310.pyc
+[0.822s] byte-compiling /home/mraurora/Learning_ROS2_21/install/learning_topic/lib/python3.10/site-packages/learning_topic/__init__.py to __init__.cpython-310.pyc
+[0.822s] byte-compiling /home/mraurora/Learning_ROS2_21/install/learning_topic/lib/python3.10/site-packages/learning_topic/topic_helloworld_pub.py to topic_helloworld_pub.cpython-310.pyc
+[0.822s] byte-compiling /home/mraurora/Learning_ROS2_21/install/learning_topic/lib/python3.10/site-packages/learning_topic/interface_object_sub.py to interface_object_sub.cpython-310.pyc
+[0.822s] byte-compiling /home/mraurora/Learning_ROS2_21/install/learning_topic/lib/python3.10/site-packages/learning_topic/topic_webcam_pub.py to topic_webcam_pub.cpython-310.pyc
+[0.822s] running install_data
+[0.822s] creating /home/mraurora/Learning_ROS2_21/install/learning_topic/share/ament_index
+[0.822s] creating /home/mraurora/Learning_ROS2_21/install/learning_topic/share/ament_index/resource_index
+[0.823s] creating /home/mraurora/Learning_ROS2_21/install/learning_topic/share/ament_index/resource_index/packages
+[0.823s] copying resource/learning_topic -> /home/mraurora/Learning_ROS2_21/install/learning_topic/share/ament_index/resource_index/packages
+[0.823s] copying package.xml -> /home/mraurora/Learning_ROS2_21/install/learning_topic/share/learning_topic
+[0.823s] running install_egg_info
+[0.824s] Copying ../../../build/learning_topic/learning_topic.egg-info to /home/mraurora/Learning_ROS2_21/install/learning_topic/lib/python3.10/site-packages/learning_topic-0.0.0-py3.10.egg-info
+[0.824s] running install_scripts
+[0.840s] Installing interface_object_pub script to /home/mraurora/Learning_ROS2_21/install/learning_topic/lib/learning_topic
+[0.840s] Installing interface_object_sub script to /home/mraurora/Learning_ROS2_21/install/learning_topic/lib/learning_topic
+[0.840s] Installing topic_helloworld_pub script to /home/mraurora/Learning_ROS2_21/install/learning_topic/lib/learning_topic
+[0.840s] Installing topic_helloworld_sub script to /home/mraurora/Learning_ROS2_21/install/learning_topic/lib/learning_topic
+[0.841s] Installing topic_webcam_pub script to /home/mraurora/Learning_ROS2_21/install/learning_topic/lib/learning_topic
+[0.841s] Installing topic_webcam_sub script to /home/mraurora/Learning_ROS2_21/install/learning_topic/lib/learning_topic
+[0.841s] writing list of installed files to '/home/mraurora/Learning_ROS2_21/build/learning_topic/install.log'
+[0.865s] Invoked command in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_topic' returned '0': AMENT_PREFIX_PATH=/home/mraurora/Learning_ROS2_21/install/learning_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mraurora/Learning_ROS2_21/install/learning_interface LD_LIBRARY_PATH=/home/mraurora/Learning_ROS2_21/install/learning_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mraurora/Learning_ROS2_21/build/learning_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mraurora/Learning_ROS2_21/install/learning_topic/lib/python3.10/site-packages:/home/mraurora/Learning_ROS2_21/install/learning_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_topic build --build-base /home/mraurora/Learning_ROS2_21/build/learning_topic/build install --record /home/mraurora/Learning_ROS2_21/build/learning_topic/install.log --single-version-externally-managed install_data

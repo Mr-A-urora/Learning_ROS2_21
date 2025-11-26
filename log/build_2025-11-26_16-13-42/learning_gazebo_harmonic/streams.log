@@ -1,0 +1,20 @@
+[2.818s] Invoking command in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_gazebo_harmonic': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/mraurora/Learning_ROS2_21/build/learning_gazebo_harmonic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_gazebo_harmonic build --build-base /home/mraurora/Learning_ROS2_21/build/learning_gazebo_harmonic/build install --record /home/mraurora/Learning_ROS2_21/build/learning_gazebo_harmonic/install.log --single-version-externally-managed install_data
+[3.312s] running egg_info
+[3.312s] writing ../../../build/learning_gazebo_harmonic/learning_gazebo_harmonic.egg-info/PKG-INFO
+[3.313s] writing dependency_links to ../../../build/learning_gazebo_harmonic/learning_gazebo_harmonic.egg-info/dependency_links.txt
+[3.313s] writing entry points to ../../../build/learning_gazebo_harmonic/learning_gazebo_harmonic.egg-info/entry_points.txt
+[3.313s] writing requirements to ../../../build/learning_gazebo_harmonic/learning_gazebo_harmonic.egg-info/requires.txt
+[3.313s] writing top-level names to ../../../build/learning_gazebo_harmonic/learning_gazebo_harmonic.egg-info/top_level.txt
+[3.313s] reading manifest file '../../../build/learning_gazebo_harmonic/learning_gazebo_harmonic.egg-info/SOURCES.txt'
+[3.313s] writing manifest file '../../../build/learning_gazebo_harmonic/learning_gazebo_harmonic.egg-info/SOURCES.txt'
+[3.313s] running build
+[3.313s] running build_py
+[3.313s] running install
+[3.313s] running install_lib
+[3.313s] running install_data
+[3.313s] running install_egg_info
+[3.314s] removing '/home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/lib/python3.10/site-packages/learning_gazebo_harmonic-0.0.0-py3.10.egg-info' (and everything under it)
+[3.314s] Copying ../../../build/learning_gazebo_harmonic/learning_gazebo_harmonic.egg-info to /home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/lib/python3.10/site-packages/learning_gazebo_harmonic-0.0.0-py3.10.egg-info
+[3.314s] running install_scripts
+[3.314s] writing list of installed files to '/home/mraurora/Learning_ROS2_21/build/learning_gazebo_harmonic/install.log'
+[3.366s] Invoked command in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_gazebo_harmonic' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/mraurora/Learning_ROS2_21/build/learning_gazebo_harmonic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_gazebo_harmonic build --build-base /home/mraurora/Learning_ROS2_21/build/learning_gazebo_harmonic/build install --record /home/mraurora/Learning_ROS2_21/build/learning_gazebo_harmonic/install.log --single-version-externally-managed install_data

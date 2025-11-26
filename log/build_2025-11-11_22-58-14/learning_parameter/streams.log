@@ -1,0 +1,41 @@
+[1.904s] Invoking command in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_parameter': PYTHONPATH=/home/mraurora/Learning_ROS2_21/build/learning_parameter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mraurora/Learning_ROS2_21/install/learning_parameter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_parameter build --build-base /home/mraurora/Learning_ROS2_21/build/learning_parameter/build install --record /home/mraurora/Learning_ROS2_21/build/learning_parameter/install.log --single-version-externally-managed install_data
+[2.172s] running egg_info
+[2.174s] creating ../../../build/learning_parameter/learning_parameter.egg-info
+[2.174s] writing ../../../build/learning_parameter/learning_parameter.egg-info/PKG-INFO
+[2.174s] writing dependency_links to ../../../build/learning_parameter/learning_parameter.egg-info/dependency_links.txt
+[2.175s] writing entry points to ../../../build/learning_parameter/learning_parameter.egg-info/entry_points.txt
+[2.175s] writing requirements to ../../../build/learning_parameter/learning_parameter.egg-info/requires.txt
+[2.175s] writing top-level names to ../../../build/learning_parameter/learning_parameter.egg-info/top_level.txt
+[2.175s] writing manifest file '../../../build/learning_parameter/learning_parameter.egg-info/SOURCES.txt'
+[2.175s] reading manifest file '../../../build/learning_parameter/learning_parameter.egg-info/SOURCES.txt'
+[2.176s] writing manifest file '../../../build/learning_parameter/learning_parameter.egg-info/SOURCES.txt'
+[2.176s] running build
+[2.177s] running build_py
+[2.177s] creating /home/mraurora/Learning_ROS2_21/build/learning_parameter/build
+[2.177s] creating /home/mraurora/Learning_ROS2_21/build/learning_parameter/build/lib
+[2.177s] creating /home/mraurora/Learning_ROS2_21/build/learning_parameter/build/lib/learning_parameter
+[2.177s] copying learning_parameter/param_declare.py -> /home/mraurora/Learning_ROS2_21/build/learning_parameter/build/lib/learning_parameter
+[2.177s] copying learning_parameter/__init__.py -> /home/mraurora/Learning_ROS2_21/build/learning_parameter/build/lib/learning_parameter
+[2.177s] copying learning_parameter/param_object_detect.py -> /home/mraurora/Learning_ROS2_21/build/learning_parameter/build/lib/learning_parameter
+[2.177s] running install
+[2.177s] running install_lib
+[2.178s] creating /home/mraurora/Learning_ROS2_21/install/learning_parameter/lib/python3.10/site-packages/learning_parameter
+[2.178s] copying /home/mraurora/Learning_ROS2_21/build/learning_parameter/build/lib/learning_parameter/param_declare.py -> /home/mraurora/Learning_ROS2_21/install/learning_parameter/lib/python3.10/site-packages/learning_parameter
+[2.178s] copying /home/mraurora/Learning_ROS2_21/build/learning_parameter/build/lib/learning_parameter/__init__.py -> /home/mraurora/Learning_ROS2_21/install/learning_parameter/lib/python3.10/site-packages/learning_parameter
+[2.179s] copying /home/mraurora/Learning_ROS2_21/build/learning_parameter/build/lib/learning_parameter/param_object_detect.py -> /home/mraurora/Learning_ROS2_21/install/learning_parameter/lib/python3.10/site-packages/learning_parameter
+[2.179s] byte-compiling /home/mraurora/Learning_ROS2_21/install/learning_parameter/lib/python3.10/site-packages/learning_parameter/param_declare.py to param_declare.cpython-310.pyc
+[2.179s] byte-compiling /home/mraurora/Learning_ROS2_21/install/learning_parameter/lib/python3.10/site-packages/learning_parameter/__init__.py to __init__.cpython-310.pyc
+[2.180s] byte-compiling /home/mraurora/Learning_ROS2_21/install/learning_parameter/lib/python3.10/site-packages/learning_parameter/param_object_detect.py to param_object_detect.cpython-310.pyc
+[2.180s] running install_data
+[2.180s] creating /home/mraurora/Learning_ROS2_21/install/learning_parameter/share/ament_index
+[2.180s] creating /home/mraurora/Learning_ROS2_21/install/learning_parameter/share/ament_index/resource_index
+[2.181s] creating /home/mraurora/Learning_ROS2_21/install/learning_parameter/share/ament_index/resource_index/packages
+[2.181s] copying resource/learning_parameter -> /home/mraurora/Learning_ROS2_21/install/learning_parameter/share/ament_index/resource_index/packages
+[2.181s] copying package.xml -> /home/mraurora/Learning_ROS2_21/install/learning_parameter/share/learning_parameter
+[2.181s] running install_egg_info
+[2.183s] Copying ../../../build/learning_parameter/learning_parameter.egg-info to /home/mraurora/Learning_ROS2_21/install/learning_parameter/lib/python3.10/site-packages/learning_parameter-0.0.0-py3.10.egg-info
+[2.184s] running install_scripts
+[2.210s] Installing param_declare script to /home/mraurora/Learning_ROS2_21/install/learning_parameter/lib/learning_parameter
+[2.211s] Installing param_object_detect script to /home/mraurora/Learning_ROS2_21/install/learning_parameter/lib/learning_parameter
+[2.211s] writing list of installed files to '/home/mraurora/Learning_ROS2_21/build/learning_parameter/install.log'
+[2.265s] Invoked command in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_parameter' returned '0': PYTHONPATH=/home/mraurora/Learning_ROS2_21/build/learning_parameter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mraurora/Learning_ROS2_21/install/learning_parameter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_parameter build --build-base /home/mraurora/Learning_ROS2_21/build/learning_parameter/build install --record /home/mraurora/Learning_ROS2_21/build/learning_parameter/install.log --single-version-externally-managed install_data

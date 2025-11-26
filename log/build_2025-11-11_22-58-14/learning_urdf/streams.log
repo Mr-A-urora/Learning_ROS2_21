@@ -1,0 +1,52 @@
+[1.756s] Invoking command in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_urdf': PYTHONPATH=/home/mraurora/Learning_ROS2_21/build/learning_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mraurora/Learning_ROS2_21/install/learning_urdf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_urdf build --build-base /home/mraurora/Learning_ROS2_21/build/learning_urdf/build install --record /home/mraurora/Learning_ROS2_21/build/learning_urdf/install.log --single-version-externally-managed install_data
+[1.898s] running egg_info
+[1.899s] creating ../../../build/learning_urdf/learning_urdf.egg-info
+[1.899s] writing ../../../build/learning_urdf/learning_urdf.egg-info/PKG-INFO
+[1.899s] writing dependency_links to ../../../build/learning_urdf/learning_urdf.egg-info/dependency_links.txt
+[1.899s] writing entry points to ../../../build/learning_urdf/learning_urdf.egg-info/entry_points.txt
+[1.899s] writing requirements to ../../../build/learning_urdf/learning_urdf.egg-info/requires.txt
+[1.899s] writing top-level names to ../../../build/learning_urdf/learning_urdf.egg-info/top_level.txt
+[1.899s] writing manifest file '../../../build/learning_urdf/learning_urdf.egg-info/SOURCES.txt'
+[1.900s] reading manifest file '../../../build/learning_urdf/learning_urdf.egg-info/SOURCES.txt'
+[1.901s] writing manifest file '../../../build/learning_urdf/learning_urdf.egg-info/SOURCES.txt'
+[1.901s] running build
+[1.901s] running build_py
+[1.901s] creating /home/mraurora/Learning_ROS2_21/build/learning_urdf/build
+[1.901s] creating /home/mraurora/Learning_ROS2_21/build/learning_urdf/build/lib
+[1.901s] creating /home/mraurora/Learning_ROS2_21/build/learning_urdf/build/lib/learning_urdf
+[1.901s] copying learning_urdf/__init__.py -> /home/mraurora/Learning_ROS2_21/build/learning_urdf/build/lib/learning_urdf
+[1.901s] running install
+[1.901s] running install_lib
+[1.902s] creating /home/mraurora/Learning_ROS2_21/install/learning_urdf/lib/python3.10/site-packages/learning_urdf
+[1.902s] copying /home/mraurora/Learning_ROS2_21/build/learning_urdf/build/lib/learning_urdf/__init__.py -> /home/mraurora/Learning_ROS2_21/install/learning_urdf/lib/python3.10/site-packages/learning_urdf
+[1.902s] byte-compiling /home/mraurora/Learning_ROS2_21/install/learning_urdf/lib/python3.10/site-packages/learning_urdf/__init__.py to __init__.cpython-310.pyc
+[1.903s] running install_data
+[1.903s] creating /home/mraurora/Learning_ROS2_21/install/learning_urdf/share/ament_index
+[1.903s] creating /home/mraurora/Learning_ROS2_21/install/learning_urdf/share/ament_index/resource_index
+[1.903s] creating /home/mraurora/Learning_ROS2_21/install/learning_urdf/share/ament_index/resource_index/packages
+[1.903s] copying resource/learning_urdf -> /home/mraurora/Learning_ROS2_21/install/learning_urdf/share/ament_index/resource_index/packages
+[1.903s] copying package.xml -> /home/mraurora/Learning_ROS2_21/install/learning_urdf/share/learning_urdf
+[1.903s] creating /home/mraurora/Learning_ROS2_21/install/learning_urdf/share/learning_urdf/launch
+[1.903s] copying launch/display.launch.py -> /home/mraurora/Learning_ROS2_21/install/learning_urdf/share/learning_urdf/launch
+[1.903s] copying launch/display_xacro.launch.py -> /home/mraurora/Learning_ROS2_21/install/learning_urdf/share/learning_urdf/launch
+[1.903s] creating /home/mraurora/Learning_ROS2_21/install/learning_urdf/share/learning_urdf/urdf
+[1.903s] copying urdf/mbot_base.xacro -> /home/mraurora/Learning_ROS2_21/install/learning_urdf/share/learning_urdf/urdf
+[1.903s] copying urdf/mbot_with_kinect.urdf -> /home/mraurora/Learning_ROS2_21/install/learning_urdf/share/learning_urdf/urdf
+[1.903s] copying urdf/mbot_with_laser.urdf -> /home/mraurora/Learning_ROS2_21/install/learning_urdf/share/learning_urdf/urdf
+[1.904s] copying urdf/mbot_with_camera.urdf -> /home/mraurora/Learning_ROS2_21/install/learning_urdf/share/learning_urdf/urdf
+[1.904s] copying urdf/mbot_base.urdf -> /home/mraurora/Learning_ROS2_21/install/learning_urdf/share/learning_urdf/urdf
+[1.904s] creating /home/mraurora/Learning_ROS2_21/install/learning_urdf/share/learning_urdf/urdf/sensors
+[1.904s] copying urdf/sensors/kinect_gazebo.xacro -> /home/mraurora/Learning_ROS2_21/install/learning_urdf/share/learning_urdf/urdf/sensors
+[1.904s] copying urdf/sensors/camera_gazebo.xacro -> /home/mraurora/Learning_ROS2_21/install/learning_urdf/share/learning_urdf/urdf/sensors
+[1.904s] copying urdf/sensors/lidar_gazebo.xacro -> /home/mraurora/Learning_ROS2_21/install/learning_urdf/share/learning_urdf/urdf/sensors
+[1.904s] creating /home/mraurora/Learning_ROS2_21/install/learning_urdf/share/learning_urdf/meshes
+[1.904s] copying meshes/kinect.tga -> /home/mraurora/Learning_ROS2_21/install/learning_urdf/share/learning_urdf/meshes
+[1.904s] copying meshes/kinect.jpg -> /home/mraurora/Learning_ROS2_21/install/learning_urdf/share/learning_urdf/meshes
+[1.904s] copying meshes/kinect.dae -> /home/mraurora/Learning_ROS2_21/install/learning_urdf/share/learning_urdf/meshes
+[1.904s] creating /home/mraurora/Learning_ROS2_21/install/learning_urdf/share/learning_urdf/rviz
+[1.904s] copying rviz/urdf.rviz -> /home/mraurora/Learning_ROS2_21/install/learning_urdf/share/learning_urdf/rviz
+[1.904s] running install_egg_info
+[1.905s] Copying ../../../build/learning_urdf/learning_urdf.egg-info to /home/mraurora/Learning_ROS2_21/install/learning_urdf/lib/python3.10/site-packages/learning_urdf-0.0.0-py3.10.egg-info
+[1.905s] running install_scripts
+[1.921s] writing list of installed files to '/home/mraurora/Learning_ROS2_21/build/learning_urdf/install.log'
+[1.940s] Invoked command in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_urdf' returned '0': PYTHONPATH=/home/mraurora/Learning_ROS2_21/build/learning_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mraurora/Learning_ROS2_21/install/learning_urdf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_urdf build --build-base /home/mraurora/Learning_ROS2_21/build/learning_urdf/build install --record /home/mraurora/Learning_ROS2_21/build/learning_urdf/install.log --single-version-externally-managed install_data

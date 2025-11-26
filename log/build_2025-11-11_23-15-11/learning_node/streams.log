@@ -1,0 +1,24 @@
+[2.249s] Invoking command in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_node': PYTHONPATH=/home/mraurora/Learning_ROS2_21/build/learning_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mraurora/Learning_ROS2_21/install/learning_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_node build --build-base /home/mraurora/Learning_ROS2_21/build/learning_node/build install --record /home/mraurora/Learning_ROS2_21/build/learning_node/install.log --single-version-externally-managed install_data
+[2.490s] running egg_info
+[2.490s] writing ../../../build/learning_node/learning_node.egg-info/PKG-INFO
+[2.490s] writing dependency_links to ../../../build/learning_node/learning_node.egg-info/dependency_links.txt
+[2.490s] writing entry points to ../../../build/learning_node/learning_node.egg-info/entry_points.txt
+[2.490s] writing requirements to ../../../build/learning_node/learning_node.egg-info/requires.txt
+[2.490s] writing top-level names to ../../../build/learning_node/learning_node.egg-info/top_level.txt
+[2.491s] reading manifest file '../../../build/learning_node/learning_node.egg-info/SOURCES.txt'
+[2.492s] writing manifest file '../../../build/learning_node/learning_node.egg-info/SOURCES.txt'
+[2.492s] running build
+[2.492s] running build_py
+[2.492s] running install
+[2.492s] running install_lib
+[2.493s] running install_data
+[2.493s] running install_egg_info
+[2.494s] removing '/home/mraurora/Learning_ROS2_21/install/learning_node/lib/python3.10/site-packages/learning_node-0.0.0-py3.10.egg-info' (and everything under it)
+[2.495s] Copying ../../../build/learning_node/learning_node.egg-info to /home/mraurora/Learning_ROS2_21/install/learning_node/lib/python3.10/site-packages/learning_node-0.0.0-py3.10.egg-info
+[2.495s] running install_scripts
+[2.510s] Installing node_helloworld script to /home/mraurora/Learning_ROS2_21/install/learning_node/lib/learning_node
+[2.510s] Installing node_helloworld_class script to /home/mraurora/Learning_ROS2_21/install/learning_node/lib/learning_node
+[2.510s] Installing node_object script to /home/mraurora/Learning_ROS2_21/install/learning_node/lib/learning_node
+[2.510s] Installing node_object_webcam script to /home/mraurora/Learning_ROS2_21/install/learning_node/lib/learning_node
+[2.510s] writing list of installed files to '/home/mraurora/Learning_ROS2_21/build/learning_node/install.log'
+[2.528s] Invoked command in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_node' returned '0': PYTHONPATH=/home/mraurora/Learning_ROS2_21/build/learning_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mraurora/Learning_ROS2_21/install/learning_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_node build --build-base /home/mraurora/Learning_ROS2_21/build/learning_node/build install --record /home/mraurora/Learning_ROS2_21/build/learning_node/install.log --single-version-externally-managed install_data

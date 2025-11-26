@@ -1,0 +1,42 @@
+[0.879s] Invoking command in '/home/mraurora/Learning_ROS2_21/build/learning_pkg_c': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_pkg_c -DCMAKE_INSTALL_PREFIX=/home/mraurora/Learning_ROS2_21/install/learning_pkg_c
+[1.485s] -- The C compiler identification is GNU 11.4.0
+[1.486s] -- The CXX compiler identification is GNU 11.4.0
+[1.486s] -- Detecting C compiler ABI info
+[1.486s] -- Detecting C compiler ABI info - done
+[1.486s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.486s] -- Detecting C compile features
+[1.486s] -- Detecting C compile features - done
+[1.486s] -- Detecting CXX compiler ABI info
+[1.486s] -- Detecting CXX compiler ABI info - done
+[1.486s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.486s] -- Detecting CXX compile features
+[1.486s] -- Detecting CXX compile features - done
+[1.487s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.487s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.487s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.487s] -- Added test 'lint_cmake' to check CMake code style
+[1.487s] -- Added test 'xmllint' to check XML markup files
+[1.487s] -- Configuring done
+[1.487s] -- Generating done
+[1.487s] -- Build files have been written to: /home/mraurora/Learning_ROS2_21/build/learning_pkg_c
+[1.491s] Invoked command in '/home/mraurora/Learning_ROS2_21/build/learning_pkg_c' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_pkg_c -DCMAKE_INSTALL_PREFIX=/home/mraurora/Learning_ROS2_21/install/learning_pkg_c
+[1.492s] Invoking command in '/home/mraurora/Learning_ROS2_21/build/learning_pkg_c': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mraurora/Learning_ROS2_21/build/learning_pkg_c -- -j20 -l20
+[1.530s] Invoked command in '/home/mraurora/Learning_ROS2_21/build/learning_pkg_c' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mraurora/Learning_ROS2_21/build/learning_pkg_c -- -j20 -l20
+[1.537s] Invoking command in '/home/mraurora/Learning_ROS2_21/build/learning_pkg_c': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mraurora/Learning_ROS2_21/build/learning_pkg_c
+[1.545s] -- Install configuration: ""
+[1.549s] -- Installing: /home/mraurora/Learning_ROS2_21/install/learning_pkg_c/share/ament_index/resource_index/package_run_dependencies/learning_pkg_c
+[1.549s] -- Installing: /home/mraurora/Learning_ROS2_21/install/learning_pkg_c/share/ament_index/resource_index/parent_prefix_path/learning_pkg_c
+[1.549s] -- Installing: /home/mraurora/Learning_ROS2_21/install/learning_pkg_c/share/learning_pkg_c/environment/ament_prefix_path.sh
+[1.549s] -- Installing: /home/mraurora/Learning_ROS2_21/install/learning_pkg_c/share/learning_pkg_c/environment/ament_prefix_path.dsv
+[1.549s] -- Installing: /home/mraurora/Learning_ROS2_21/install/learning_pkg_c/share/learning_pkg_c/environment/path.sh
+[1.549s] -- Installing: /home/mraurora/Learning_ROS2_21/install/learning_pkg_c/share/learning_pkg_c/environment/path.dsv
+[1.549s] -- Installing: /home/mraurora/Learning_ROS2_21/install/learning_pkg_c/share/learning_pkg_c/local_setup.bash
+[1.549s] -- Installing: /home/mraurora/Learning_ROS2_21/install/learning_pkg_c/share/learning_pkg_c/local_setup.sh
+[1.549s] -- Installing: /home/mraurora/Learning_ROS2_21/install/learning_pkg_c/share/learning_pkg_c/local_setup.zsh
+[1.550s] -- Installing: /home/mraurora/Learning_ROS2_21/install/learning_pkg_c/share/learning_pkg_c/local_setup.dsv
+[1.550s] -- Installing: /home/mraurora/Learning_ROS2_21/install/learning_pkg_c/share/learning_pkg_c/package.dsv
+[1.550s] -- Installing: /home/mraurora/Learning_ROS2_21/install/learning_pkg_c/share/ament_index/resource_index/packages/learning_pkg_c
+[1.550s] -- Installing: /home/mraurora/Learning_ROS2_21/install/learning_pkg_c/share/learning_pkg_c/cmake/learning_pkg_cConfig.cmake
+[1.550s] -- Installing: /home/mraurora/Learning_ROS2_21/install/learning_pkg_c/share/learning_pkg_c/cmake/learning_pkg_cConfig-version.cmake
+[1.550s] -- Installing: /home/mraurora/Learning_ROS2_21/install/learning_pkg_c/share/learning_pkg_c/package.xml
+[1.551s] Invoked command in '/home/mraurora/Learning_ROS2_21/build/learning_pkg_c' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mraurora/Learning_ROS2_21/build/learning_pkg_c

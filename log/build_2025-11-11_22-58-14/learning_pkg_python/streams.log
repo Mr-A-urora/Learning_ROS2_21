@@ -1,0 +1,33 @@
+[1.895s] Invoking command in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_pkg_python': PYTHONPATH=/home/mraurora/Learning_ROS2_21/build/learning_pkg_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mraurora/Learning_ROS2_21/install/learning_pkg_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_pkg_python build --build-base /home/mraurora/Learning_ROS2_21/build/learning_pkg_python/build install --record /home/mraurora/Learning_ROS2_21/build/learning_pkg_python/install.log --single-version-externally-managed install_data
+[2.166s] running egg_info
+[2.167s] creating ../../../build/learning_pkg_python/learning_pkg_python.egg-info
+[2.167s] writing ../../../build/learning_pkg_python/learning_pkg_python.egg-info/PKG-INFO
+[2.167s] writing dependency_links to ../../../build/learning_pkg_python/learning_pkg_python.egg-info/dependency_links.txt
+[2.168s] writing entry points to ../../../build/learning_pkg_python/learning_pkg_python.egg-info/entry_points.txt
+[2.168s] writing requirements to ../../../build/learning_pkg_python/learning_pkg_python.egg-info/requires.txt
+[2.169s] writing top-level names to ../../../build/learning_pkg_python/learning_pkg_python.egg-info/top_level.txt
+[2.169s] writing manifest file '../../../build/learning_pkg_python/learning_pkg_python.egg-info/SOURCES.txt'
+[2.169s] reading manifest file '../../../build/learning_pkg_python/learning_pkg_python.egg-info/SOURCES.txt'
+[2.170s] writing manifest file '../../../build/learning_pkg_python/learning_pkg_python.egg-info/SOURCES.txt'
+[2.170s] running build
+[2.170s] running build_py
+[2.170s] creating /home/mraurora/Learning_ROS2_21/build/learning_pkg_python/build
+[2.170s] creating /home/mraurora/Learning_ROS2_21/build/learning_pkg_python/build/lib
+[2.171s] creating /home/mraurora/Learning_ROS2_21/build/learning_pkg_python/build/lib/learning_pkg_python
+[2.171s] copying learning_pkg_python/__init__.py -> /home/mraurora/Learning_ROS2_21/build/learning_pkg_python/build/lib/learning_pkg_python
+[2.172s] running install
+[2.172s] running install_lib
+[2.172s] creating /home/mraurora/Learning_ROS2_21/install/learning_pkg_python/lib/python3.10/site-packages/learning_pkg_python
+[2.172s] copying /home/mraurora/Learning_ROS2_21/build/learning_pkg_python/build/lib/learning_pkg_python/__init__.py -> /home/mraurora/Learning_ROS2_21/install/learning_pkg_python/lib/python3.10/site-packages/learning_pkg_python
+[2.172s] byte-compiling /home/mraurora/Learning_ROS2_21/install/learning_pkg_python/lib/python3.10/site-packages/learning_pkg_python/__init__.py to __init__.cpython-310.pyc
+[2.173s] running install_data
+[2.173s] creating /home/mraurora/Learning_ROS2_21/install/learning_pkg_python/share/ament_index
+[2.173s] creating /home/mraurora/Learning_ROS2_21/install/learning_pkg_python/share/ament_index/resource_index
+[2.173s] creating /home/mraurora/Learning_ROS2_21/install/learning_pkg_python/share/ament_index/resource_index/packages
+[2.173s] copying resource/learning_pkg_python -> /home/mraurora/Learning_ROS2_21/install/learning_pkg_python/share/ament_index/resource_index/packages
+[2.174s] copying package.xml -> /home/mraurora/Learning_ROS2_21/install/learning_pkg_python/share/learning_pkg_python
+[2.174s] running install_egg_info
+[2.175s] Copying ../../../build/learning_pkg_python/learning_pkg_python.egg-info to /home/mraurora/Learning_ROS2_21/install/learning_pkg_python/lib/python3.10/site-packages/learning_pkg_python-0.0.0-py3.10.egg-info
+[2.176s] running install_scripts
+[2.203s] writing list of installed files to '/home/mraurora/Learning_ROS2_21/build/learning_pkg_python/install.log'
+[2.254s] Invoked command in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_pkg_python' returned '0': PYTHONPATH=/home/mraurora/Learning_ROS2_21/build/learning_pkg_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mraurora/Learning_ROS2_21/install/learning_pkg_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_pkg_python build --build-base /home/mraurora/Learning_ROS2_21/build/learning_pkg_python/build install --record /home/mraurora/Learning_ROS2_21/build/learning_pkg_python/install.log --single-version-externally-managed install_data

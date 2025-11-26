@@ -1,0 +1,61 @@
+[1.900s] Invoking command in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_gazebo_harmonic': PYTHONPATH=/home/mraurora/Learning_ROS2_21/build/learning_gazebo_harmonic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_gazebo_harmonic build --build-base /home/mraurora/Learning_ROS2_21/build/learning_gazebo_harmonic/build install --record /home/mraurora/Learning_ROS2_21/build/learning_gazebo_harmonic/install.log --single-version-externally-managed install_data
+[2.172s] running egg_info
+[2.172s] creating ../../../build/learning_gazebo_harmonic/learning_gazebo_harmonic.egg-info
+[2.172s] writing ../../../build/learning_gazebo_harmonic/learning_gazebo_harmonic.egg-info/PKG-INFO
+[2.173s] writing dependency_links to ../../../build/learning_gazebo_harmonic/learning_gazebo_harmonic.egg-info/dependency_links.txt
+[2.173s] writing entry points to ../../../build/learning_gazebo_harmonic/learning_gazebo_harmonic.egg-info/entry_points.txt
+[2.173s] writing requirements to ../../../build/learning_gazebo_harmonic/learning_gazebo_harmonic.egg-info/requires.txt
+[2.173s] writing top-level names to ../../../build/learning_gazebo_harmonic/learning_gazebo_harmonic.egg-info/top_level.txt
+[2.173s] writing manifest file '../../../build/learning_gazebo_harmonic/learning_gazebo_harmonic.egg-info/SOURCES.txt'
+[2.175s] reading manifest file '../../../build/learning_gazebo_harmonic/learning_gazebo_harmonic.egg-info/SOURCES.txt'
+[2.176s] writing manifest file '../../../build/learning_gazebo_harmonic/learning_gazebo_harmonic.egg-info/SOURCES.txt'
+[2.176s] running build
+[2.176s] running build_py
+[2.176s] creating /home/mraurora/Learning_ROS2_21/build/learning_gazebo_harmonic/build
+[2.177s] creating /home/mraurora/Learning_ROS2_21/build/learning_gazebo_harmonic/build/lib
+[2.177s] creating /home/mraurora/Learning_ROS2_21/build/learning_gazebo_harmonic/build/lib/learning_gazebo_harmonic
+[2.177s] copying learning_gazebo_harmonic/__init__.py -> /home/mraurora/Learning_ROS2_21/build/learning_gazebo_harmonic/build/lib/learning_gazebo_harmonic
+[2.177s] running install
+[2.177s] running install_lib
+[2.178s] creating /home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/lib/python3.10/site-packages/learning_gazebo_harmonic
+[2.178s] copying /home/mraurora/Learning_ROS2_21/build/learning_gazebo_harmonic/build/lib/learning_gazebo_harmonic/__init__.py -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/lib/python3.10/site-packages/learning_gazebo_harmonic
+[2.178s] byte-compiling /home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/lib/python3.10/site-packages/learning_gazebo_harmonic/__init__.py to __init__.cpython-310.pyc
+[2.179s] running install_data
+[2.179s] creating /home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/share/ament_index
+[2.179s] creating /home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/share/ament_index/resource_index
+[2.179s] creating /home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/share/ament_index/resource_index/packages
+[2.179s] copying resource/learning_gazebo_harmonic -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/share/ament_index/resource_index/packages
+[2.179s] copying package.xml -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/share/learning_gazebo_harmonic
+[2.179s] creating /home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/share/learning_gazebo_harmonic/launch
+[2.179s] copying launch/load_urdf_into_gazebo_harmonic.launch.py -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/share/learning_gazebo_harmonic/launch
+[2.180s] copying launch/load_mbot_rgbd_into_gazebo_harmonic.launch.py -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/share/learning_gazebo_harmonic/launch
+[2.180s] copying launch/load_mbot_camera_into_gazebo_harmonic.launch.py -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/share/learning_gazebo_harmonic/launch
+[2.180s] copying launch/load_mbot_lidar_into_maze_gazebo_harmonic.launch.py -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/share/learning_gazebo_harmonic/launch
+[2.180s] copying launch/load_mbot_rgbd_into_maze_gazebo_harmonic.launch.py -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/share/learning_gazebo_harmonic/launch
+[2.180s] copying launch/load_mbot_lidar_into_gazebo_harmonic.launch.py -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/share/learning_gazebo_harmonic/launch
+[2.180s] creating /home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/share/learning_gazebo_harmonic/urdf
+[2.180s] copying urdf/mbot_base_gazebo_harmonic.xacro -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/share/learning_gazebo_harmonic/urdf
+[2.180s] copying urdf/mbot_gazebo_harmonic.xacro -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/share/learning_gazebo_harmonic/urdf
+[2.181s] copying urdf/mbot_with_camera_gazebo_harmonic.xacro -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/share/learning_gazebo_harmonic/urdf
+[2.181s] copying urdf/mbot_with_lidar.sdf -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/share/learning_gazebo_harmonic/urdf
+[2.181s] copying urdf/mbot_with_rgbd_gazebo_harmonic.xacro -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/share/learning_gazebo_harmonic/urdf
+[2.181s] copying urdf/mbot_with_lidar_gazebo_harmonic.xacro -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/share/learning_gazebo_harmonic/urdf
+[2.181s] creating /home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/share/learning_gazebo_harmonic/urdf/sensors
+[2.181s] copying urdf/sensors/camera_gazebo_harmonic.xacro -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/share/learning_gazebo_harmonic/urdf/sensors
+[2.181s] copying urdf/sensors/rgbd_gazebo_harmonic.xacro -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/share/learning_gazebo_harmonic/urdf/sensors
+[2.181s] copying urdf/sensors/lidar_gazebo_harmonic.xacro -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/share/learning_gazebo_harmonic/urdf/sensors
+[2.182s] creating /home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/share/learning_gazebo_harmonic/worlds
+[2.182s] copying worlds/maze.sdf -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/share/learning_gazebo_harmonic/worlds
+[2.183s] copying worlds/depot.sdf -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/share/learning_gazebo_harmonic/worlds
+[2.183s] copying worlds/empty.sdf -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/share/learning_gazebo_harmonic/worlds
+[2.183s] creating /home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/share/learning_gazebo_harmonic/rviz
+[2.183s] creating /home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/share/learning_gazebo_harmonic/config
+[2.183s] copying config/ros_gz_bridge_mbot_rgbd.yaml -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/share/learning_gazebo_harmonic/config
+[2.183s] copying config/ros_gz_bridge_mbot.yaml -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/share/learning_gazebo_harmonic/config
+[2.183s] copying config/ros_gz_bridge_mbot_lidar.yaml -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/share/learning_gazebo_harmonic/config
+[2.183s] copying config/ros_gz_bridge_mbot_camera.yaml -> /home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/share/learning_gazebo_harmonic/config
+[2.184s] running install_egg_info
+[2.184s] Copying ../../../build/learning_gazebo_harmonic/learning_gazebo_harmonic.egg-info to /home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/lib/python3.10/site-packages/learning_gazebo_harmonic-0.0.0-py3.10.egg-info
+[2.186s] running install_scripts
+[2.217s] writing list of installed files to '/home/mraurora/Learning_ROS2_21/build/learning_gazebo_harmonic/install.log'
+[2.258s] Invoked command in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_gazebo_harmonic' returned '0': PYTHONPATH=/home/mraurora/Learning_ROS2_21/build/learning_gazebo_harmonic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mraurora/Learning_ROS2_21/install/learning_gazebo_harmonic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_gazebo_harmonic build --build-base /home/mraurora/Learning_ROS2_21/build/learning_gazebo_harmonic/build install --record /home/mraurora/Learning_ROS2_21/build/learning_gazebo_harmonic/install.log --single-version-externally-managed install_data

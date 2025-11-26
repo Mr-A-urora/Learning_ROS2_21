@@ -1,0 +1,41 @@
+[1.772s] Invoking command in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_qos': PYTHONPATH=/home/mraurora/Learning_ROS2_21/build/learning_qos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mraurora/Learning_ROS2_21/install/learning_qos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_qos build --build-base /home/mraurora/Learning_ROS2_21/build/learning_qos/build install --record /home/mraurora/Learning_ROS2_21/build/learning_qos/install.log --single-version-externally-managed install_data
+[1.923s] running egg_info
+[1.923s] creating ../../../build/learning_qos/learning_qos.egg-info
+[1.924s] writing ../../../build/learning_qos/learning_qos.egg-info/PKG-INFO
+[1.924s] writing dependency_links to ../../../build/learning_qos/learning_qos.egg-info/dependency_links.txt
+[1.924s] writing entry points to ../../../build/learning_qos/learning_qos.egg-info/entry_points.txt
+[1.924s] writing requirements to ../../../build/learning_qos/learning_qos.egg-info/requires.txt
+[1.924s] writing top-level names to ../../../build/learning_qos/learning_qos.egg-info/top_level.txt
+[1.924s] writing manifest file '../../../build/learning_qos/learning_qos.egg-info/SOURCES.txt'
+[1.925s] reading manifest file '../../../build/learning_qos/learning_qos.egg-info/SOURCES.txt'
+[1.926s] writing manifest file '../../../build/learning_qos/learning_qos.egg-info/SOURCES.txt'
+[1.926s] running build
+[1.926s] running build_py
+[1.926s] creating /home/mraurora/Learning_ROS2_21/build/learning_qos/build
+[1.926s] creating /home/mraurora/Learning_ROS2_21/build/learning_qos/build/lib
+[1.926s] creating /home/mraurora/Learning_ROS2_21/build/learning_qos/build/lib/learning_qos
+[1.926s] copying learning_qos/qos_helloworld_pub.py -> /home/mraurora/Learning_ROS2_21/build/learning_qos/build/lib/learning_qos
+[1.926s] copying learning_qos/__init__.py -> /home/mraurora/Learning_ROS2_21/build/learning_qos/build/lib/learning_qos
+[1.926s] copying learning_qos/qos_helloworld_sub.py -> /home/mraurora/Learning_ROS2_21/build/learning_qos/build/lib/learning_qos
+[1.926s] running install
+[1.926s] running install_lib
+[1.927s] creating /home/mraurora/Learning_ROS2_21/install/learning_qos/lib/python3.10/site-packages/learning_qos
+[1.927s] copying /home/mraurora/Learning_ROS2_21/build/learning_qos/build/lib/learning_qos/qos_helloworld_pub.py -> /home/mraurora/Learning_ROS2_21/install/learning_qos/lib/python3.10/site-packages/learning_qos
+[1.927s] copying /home/mraurora/Learning_ROS2_21/build/learning_qos/build/lib/learning_qos/__init__.py -> /home/mraurora/Learning_ROS2_21/install/learning_qos/lib/python3.10/site-packages/learning_qos
+[1.927s] copying /home/mraurora/Learning_ROS2_21/build/learning_qos/build/lib/learning_qos/qos_helloworld_sub.py -> /home/mraurora/Learning_ROS2_21/install/learning_qos/lib/python3.10/site-packages/learning_qos
+[1.927s] byte-compiling /home/mraurora/Learning_ROS2_21/install/learning_qos/lib/python3.10/site-packages/learning_qos/qos_helloworld_pub.py to qos_helloworld_pub.cpython-310.pyc
+[1.928s] byte-compiling /home/mraurora/Learning_ROS2_21/install/learning_qos/lib/python3.10/site-packages/learning_qos/__init__.py to __init__.cpython-310.pyc
+[1.928s] byte-compiling /home/mraurora/Learning_ROS2_21/install/learning_qos/lib/python3.10/site-packages/learning_qos/qos_helloworld_sub.py to qos_helloworld_sub.cpython-310.pyc
+[1.928s] running install_data
+[1.928s] creating /home/mraurora/Learning_ROS2_21/install/learning_qos/share/ament_index
+[1.928s] creating /home/mraurora/Learning_ROS2_21/install/learning_qos/share/ament_index/resource_index
+[1.928s] creating /home/mraurora/Learning_ROS2_21/install/learning_qos/share/ament_index/resource_index/packages
+[1.928s] copying resource/learning_qos -> /home/mraurora/Learning_ROS2_21/install/learning_qos/share/ament_index/resource_index/packages
+[1.928s] copying package.xml -> /home/mraurora/Learning_ROS2_21/install/learning_qos/share/learning_qos
+[1.928s] running install_egg_info
+[1.929s] Copying ../../../build/learning_qos/learning_qos.egg-info to /home/mraurora/Learning_ROS2_21/install/learning_qos/lib/python3.10/site-packages/learning_qos-0.0.0-py3.10.egg-info
+[1.930s] running install_scripts
+[1.944s] Installing qos_helloworld_pub script to /home/mraurora/Learning_ROS2_21/install/learning_qos/lib/learning_qos
+[1.944s] Installing qos_helloworld_sub script to /home/mraurora/Learning_ROS2_21/install/learning_qos/lib/learning_qos
+[1.944s] writing list of installed files to '/home/mraurora/Learning_ROS2_21/build/learning_qos/install.log'
+[1.968s] Invoked command in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_qos' returned '0': PYTHONPATH=/home/mraurora/Learning_ROS2_21/build/learning_qos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mraurora/Learning_ROS2_21/install/learning_qos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_qos build --build-base /home/mraurora/Learning_ROS2_21/build/learning_qos/build install --record /home/mraurora/Learning_ROS2_21/build/learning_qos/install.log --single-version-externally-managed install_data

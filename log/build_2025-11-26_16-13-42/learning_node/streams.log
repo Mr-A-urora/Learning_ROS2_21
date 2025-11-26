@@ -1,0 +1,24 @@
+[2.795s] Invoking command in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_node': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/mraurora/Learning_ROS2_21/build/learning_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mraurora/Learning_ROS2_21/install/learning_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_node build --build-base /home/mraurora/Learning_ROS2_21/build/learning_node/build install --record /home/mraurora/Learning_ROS2_21/build/learning_node/install.log --single-version-externally-managed install_data
+[3.249s] running egg_info
+[3.249s] writing ../../../build/learning_node/learning_node.egg-info/PKG-INFO
+[3.249s] writing dependency_links to ../../../build/learning_node/learning_node.egg-info/dependency_links.txt
+[3.249s] writing entry points to ../../../build/learning_node/learning_node.egg-info/entry_points.txt
+[3.249s] writing requirements to ../../../build/learning_node/learning_node.egg-info/requires.txt
+[3.249s] writing top-level names to ../../../build/learning_node/learning_node.egg-info/top_level.txt
+[3.250s] reading manifest file '../../../build/learning_node/learning_node.egg-info/SOURCES.txt'
+[3.250s] writing manifest file '../../../build/learning_node/learning_node.egg-info/SOURCES.txt'
+[3.250s] running build
+[3.250s] running build_py
+[3.250s] running install
+[3.250s] running install_lib
+[3.250s] running install_data
+[3.250s] running install_egg_info
+[3.250s] removing '/home/mraurora/Learning_ROS2_21/install/learning_node/lib/python3.10/site-packages/learning_node-0.0.0-py3.10.egg-info' (and everything under it)
+[3.250s] Copying ../../../build/learning_node/learning_node.egg-info to /home/mraurora/Learning_ROS2_21/install/learning_node/lib/python3.10/site-packages/learning_node-0.0.0-py3.10.egg-info
+[3.250s] running install_scripts
+[3.250s] Installing node_helloworld script to /home/mraurora/Learning_ROS2_21/install/learning_node/lib/learning_node
+[3.251s] Installing node_helloworld_class script to /home/mraurora/Learning_ROS2_21/install/learning_node/lib/learning_node
+[3.251s] Installing node_object script to /home/mraurora/Learning_ROS2_21/install/learning_node/lib/learning_node
+[3.251s] Installing node_object_webcam script to /home/mraurora/Learning_ROS2_21/install/learning_node/lib/learning_node
+[3.251s] writing list of installed files to '/home/mraurora/Learning_ROS2_21/build/learning_node/install.log'
+[3.334s] Invoked command in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_node' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/mraurora/Learning_ROS2_21/build/learning_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mraurora/Learning_ROS2_21/install/learning_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_node build --build-base /home/mraurora/Learning_ROS2_21/build/learning_node/build install --record /home/mraurora/Learning_ROS2_21/build/learning_node/install.log --single-version-externally-managed install_data

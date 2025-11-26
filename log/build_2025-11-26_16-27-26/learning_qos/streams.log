@@ -1,0 +1,22 @@
+[2.380s] Invoking command in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_qos': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/mraurora/Learning_ROS2_21/build/learning_qos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mraurora/Learning_ROS2_21/install/learning_qos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_qos build --build-base /home/mraurora/Learning_ROS2_21/build/learning_qos/build install --record /home/mraurora/Learning_ROS2_21/build/learning_qos/install.log --single-version-externally-managed install_data
+[2.615s] running egg_info
+[2.615s] writing ../../../build/learning_qos/learning_qos.egg-info/PKG-INFO
+[2.615s] writing dependency_links to ../../../build/learning_qos/learning_qos.egg-info/dependency_links.txt
+[2.615s] writing entry points to ../../../build/learning_qos/learning_qos.egg-info/entry_points.txt
+[2.615s] writing requirements to ../../../build/learning_qos/learning_qos.egg-info/requires.txt
+[2.615s] writing top-level names to ../../../build/learning_qos/learning_qos.egg-info/top_level.txt
+[2.616s] reading manifest file '../../../build/learning_qos/learning_qos.egg-info/SOURCES.txt'
+[2.617s] writing manifest file '../../../build/learning_qos/learning_qos.egg-info/SOURCES.txt'
+[2.617s] running build
+[2.617s] running build_py
+[2.617s] running install
+[2.617s] running install_lib
+[2.618s] running install_data
+[2.618s] running install_egg_info
+[2.620s] removing '/home/mraurora/Learning_ROS2_21/install/learning_qos/lib/python3.10/site-packages/learning_qos-0.0.0-py3.10.egg-info' (and everything under it)
+[2.620s] Copying ../../../build/learning_qos/learning_qos.egg-info to /home/mraurora/Learning_ROS2_21/install/learning_qos/lib/python3.10/site-packages/learning_qos-0.0.0-py3.10.egg-info
+[2.620s] running install_scripts
+[2.635s] Installing qos_helloworld_pub script to /home/mraurora/Learning_ROS2_21/install/learning_qos/lib/learning_qos
+[2.635s] Installing qos_helloworld_sub script to /home/mraurora/Learning_ROS2_21/install/learning_qos/lib/learning_qos
+[2.635s] writing list of installed files to '/home/mraurora/Learning_ROS2_21/build/learning_qos/install.log'
+[2.659s] Invoked command in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_qos' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/mraurora/Learning_ROS2_21/build/learning_qos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mraurora/Learning_ROS2_21/install/learning_qos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_qos build --build-base /home/mraurora/Learning_ROS2_21/build/learning_qos/build install --record /home/mraurora/Learning_ROS2_21/build/learning_qos/install.log --single-version-externally-managed install_data

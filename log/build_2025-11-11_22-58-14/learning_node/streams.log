@@ -1,0 +1,49 @@
+[1.901s] Invoking command in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_node': PYTHONPATH=/home/mraurora/Learning_ROS2_21/build/learning_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mraurora/Learning_ROS2_21/install/learning_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_node build --build-base /home/mraurora/Learning_ROS2_21/build/learning_node/build install --record /home/mraurora/Learning_ROS2_21/build/learning_node/install.log --single-version-externally-managed install_data
+[2.069s] running egg_info
+[2.069s] creating ../../../build/learning_node/learning_node.egg-info
+[2.069s] writing ../../../build/learning_node/learning_node.egg-info/PKG-INFO
+[2.069s] writing dependency_links to ../../../build/learning_node/learning_node.egg-info/dependency_links.txt
+[2.070s] writing entry points to ../../../build/learning_node/learning_node.egg-info/entry_points.txt
+[2.070s] writing requirements to ../../../build/learning_node/learning_node.egg-info/requires.txt
+[2.070s] writing top-level names to ../../../build/learning_node/learning_node.egg-info/top_level.txt
+[2.070s] writing manifest file '../../../build/learning_node/learning_node.egg-info/SOURCES.txt'
+[2.070s] reading manifest file '../../../build/learning_node/learning_node.egg-info/SOURCES.txt'
+[2.071s] writing manifest file '../../../build/learning_node/learning_node.egg-info/SOURCES.txt'
+[2.071s] running build
+[2.071s] running build_py
+[2.071s] creating /home/mraurora/Learning_ROS2_21/build/learning_node/build
+[2.071s] creating /home/mraurora/Learning_ROS2_21/build/learning_node/build/lib
+[2.071s] creating /home/mraurora/Learning_ROS2_21/build/learning_node/build/lib/learning_node
+[2.071s] copying learning_node/node_helloworld_class.py -> /home/mraurora/Learning_ROS2_21/build/learning_node/build/lib/learning_node
+[2.071s] copying learning_node/node_object_webcam.py -> /home/mraurora/Learning_ROS2_21/build/learning_node/build/lib/learning_node
+[2.072s] copying learning_node/__init__.py -> /home/mraurora/Learning_ROS2_21/build/learning_node/build/lib/learning_node
+[2.072s] copying learning_node/node_object.py -> /home/mraurora/Learning_ROS2_21/build/learning_node/build/lib/learning_node
+[2.072s] copying learning_node/node_helloworld.py -> /home/mraurora/Learning_ROS2_21/build/learning_node/build/lib/learning_node
+[2.072s] running install
+[2.072s] running install_lib
+[2.072s] creating /home/mraurora/Learning_ROS2_21/install/learning_node/lib/python3.10/site-packages/learning_node
+[2.072s] copying /home/mraurora/Learning_ROS2_21/build/learning_node/build/lib/learning_node/node_helloworld_class.py -> /home/mraurora/Learning_ROS2_21/install/learning_node/lib/python3.10/site-packages/learning_node
+[2.072s] copying /home/mraurora/Learning_ROS2_21/build/learning_node/build/lib/learning_node/node_object_webcam.py -> /home/mraurora/Learning_ROS2_21/install/learning_node/lib/python3.10/site-packages/learning_node
+[2.072s] copying /home/mraurora/Learning_ROS2_21/build/learning_node/build/lib/learning_node/__init__.py -> /home/mraurora/Learning_ROS2_21/install/learning_node/lib/python3.10/site-packages/learning_node
+[2.072s] copying /home/mraurora/Learning_ROS2_21/build/learning_node/build/lib/learning_node/node_object.py -> /home/mraurora/Learning_ROS2_21/install/learning_node/lib/python3.10/site-packages/learning_node
+[2.072s] copying /home/mraurora/Learning_ROS2_21/build/learning_node/build/lib/learning_node/node_helloworld.py -> /home/mraurora/Learning_ROS2_21/install/learning_node/lib/python3.10/site-packages/learning_node
+[2.073s] byte-compiling /home/mraurora/Learning_ROS2_21/install/learning_node/lib/python3.10/site-packages/learning_node/node_helloworld_class.py to node_helloworld_class.cpython-310.pyc
+[2.073s] byte-compiling /home/mraurora/Learning_ROS2_21/install/learning_node/lib/python3.10/site-packages/learning_node/node_object_webcam.py to node_object_webcam.cpython-310.pyc
+[2.073s] byte-compiling /home/mraurora/Learning_ROS2_21/install/learning_node/lib/python3.10/site-packages/learning_node/__init__.py to __init__.cpython-310.pyc
+[2.073s] byte-compiling /home/mraurora/Learning_ROS2_21/install/learning_node/lib/python3.10/site-packages/learning_node/node_object.py to node_object.cpython-310.pyc
+[2.073s] byte-compiling /home/mraurora/Learning_ROS2_21/install/learning_node/lib/python3.10/site-packages/learning_node/node_helloworld.py to node_helloworld.cpython-310.pyc
+[2.074s] running install_data
+[2.074s] creating /home/mraurora/Learning_ROS2_21/install/learning_node/share/ament_index
+[2.074s] creating /home/mraurora/Learning_ROS2_21/install/learning_node/share/ament_index/resource_index
+[2.074s] creating /home/mraurora/Learning_ROS2_21/install/learning_node/share/ament_index/resource_index/packages
+[2.074s] copying resource/learning_node -> /home/mraurora/Learning_ROS2_21/install/learning_node/share/ament_index/resource_index/packages
+[2.074s] copying package.xml -> /home/mraurora/Learning_ROS2_21/install/learning_node/share/learning_node
+[2.074s] running install_egg_info
+[2.075s] Copying ../../../build/learning_node/learning_node.egg-info to /home/mraurora/Learning_ROS2_21/install/learning_node/lib/python3.10/site-packages/learning_node-0.0.0-py3.10.egg-info
+[2.075s] running install_scripts
+[2.090s] Installing node_helloworld script to /home/mraurora/Learning_ROS2_21/install/learning_node/lib/learning_node
+[2.090s] Installing node_helloworld_class script to /home/mraurora/Learning_ROS2_21/install/learning_node/lib/learning_node
+[2.090s] Installing node_object script to /home/mraurora/Learning_ROS2_21/install/learning_node/lib/learning_node
+[2.090s] Installing node_object_webcam script to /home/mraurora/Learning_ROS2_21/install/learning_node/lib/learning_node
+[2.090s] writing list of installed files to '/home/mraurora/Learning_ROS2_21/build/learning_node/install.log'
+[2.110s] Invoked command in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_node' returned '0': PYTHONPATH=/home/mraurora/Learning_ROS2_21/build/learning_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mraurora/Learning_ROS2_21/install/learning_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_node build --build-base /home/mraurora/Learning_ROS2_21/build/learning_node/build install --record /home/mraurora/Learning_ROS2_21/build/learning_node/install.log --single-version-externally-managed install_data

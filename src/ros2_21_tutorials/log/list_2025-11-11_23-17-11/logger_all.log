@@ -1,0 +1,278 @@
+[0.080s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials', '--log-base', '/dev/null']
+[0.081s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials', '--log-base', '/dev/null'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x717d7d8470d0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x717d7d93bc10>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x717d7d93bc10>>)
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.184s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials', '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/--log-base', '/dev/null'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials) by extension 'ros'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials) by extensions ['cmake', 'python']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials) by extension 'cmake'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials) by extension 'python'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials) by extensions ['python_setup_py']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials) by extension 'python_setup_py'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/docs) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/docs) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/docs) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/docs) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/docs) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/docs) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/docs) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/docs) by extension 'ros'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/docs) by extensions ['cmake', 'python']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/docs) by extension 'cmake'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/docs) by extension 'python'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/docs) by extensions ['python_setup_py']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/docs) by extension 'python_setup_py'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/docs/images) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/docs/images) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/docs/images) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/docs/images) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/docs/images) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/docs/images) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/docs/images) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/docs/images) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/docs/images) by extension 'ros'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/docs/images) by extensions ['cmake', 'python']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/docs/images) by extension 'cmake'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/docs/images) by extension 'python'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/docs/images) by extensions ['python_setup_py']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/docs/images) by extension 'python_setup_py'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_action) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_action) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_action) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_action) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_action) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_action) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_action) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_action) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_action) by extension 'ros'
+[0.198s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_action' with type 'ros.ament_python' and name 'learning_action'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_action_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_action_cpp) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_action_cpp) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_action_cpp) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_action_cpp) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_action_cpp) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_action_cpp) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_action_cpp) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_action_cpp) by extension 'ros'
+[0.199s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_action_cpp' with type 'ros.ament_cmake' and name 'learning_action_cpp'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_cv) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_cv) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_cv) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_cv) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_cv) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_cv) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_cv) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_cv) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_cv) by extension 'ros'
+[0.200s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_cv' with type 'ros.ament_python' and name 'learning_cv'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_gazebo) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_gazebo) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_gazebo) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_gazebo) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_gazebo) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_gazebo) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_gazebo) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_gazebo) by extension 'ros'
+[0.201s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_gazebo' with type 'ros.ament_python' and name 'learning_gazebo'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_gazebo_harmonic) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_gazebo_harmonic) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_gazebo_harmonic) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_gazebo_harmonic) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_gazebo_harmonic) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_gazebo_harmonic) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_gazebo_harmonic) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_gazebo_harmonic) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_gazebo_harmonic) by extension 'ros'
+[0.202s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_gazebo_harmonic' with type 'ros.ament_python' and name 'learning_gazebo_harmonic'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_interface) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_interface) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_interface) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_interface) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_interface) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_interface) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_interface) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_interface) by extension 'ros'
+[0.202s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_interface' with type 'ros.ament_cmake' and name 'learning_interface'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_launch) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_launch) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_launch) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_launch) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_launch) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_launch) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_launch) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_launch) by extension 'ros'
+[0.203s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_launch' with type 'ros.ament_python' and name 'learning_launch'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_node) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_node) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_node) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_node) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_node) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_node) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_node) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_node) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_node) by extension 'ros'
+[0.204s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_node' with type 'ros.ament_python' and name 'learning_node'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_node_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_node_cpp) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_node_cpp) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_node_cpp) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_node_cpp) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_node_cpp) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_node_cpp) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_node_cpp) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_node_cpp) by extension 'ros'
+[0.204s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_node_cpp' with type 'ros.ament_cmake' and name 'learning_node_cpp'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_parameter) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_parameter) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_parameter) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_parameter) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_parameter) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_parameter) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_parameter) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_parameter) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_parameter) by extension 'ros'
+[0.205s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_parameter' with type 'ros.ament_python' and name 'learning_parameter'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_parameter_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_parameter_cpp) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_parameter_cpp) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_parameter_cpp) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_parameter_cpp) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_parameter_cpp) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_parameter_cpp) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_parameter_cpp) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_parameter_cpp) by extension 'ros'
+[0.206s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_parameter_cpp' with type 'ros.ament_cmake' and name 'learning_parameter_cpp'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_pkg_c) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_pkg_c) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_pkg_c) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_pkg_c) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_pkg_c) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_pkg_c) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_pkg_c) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_pkg_c) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_pkg_c) by extension 'ros'
+[0.206s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_pkg_c' with type 'ros.ament_cmake' and name 'learning_pkg_c'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_pkg_python) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_pkg_python) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_pkg_python) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_pkg_python) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_pkg_python) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_pkg_python) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_pkg_python) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_pkg_python) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_pkg_python) by extension 'ros'
+[0.207s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_pkg_python' with type 'ros.ament_python' and name 'learning_pkg_python'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_qos) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_qos) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_qos) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_qos) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_qos) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_qos) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_qos) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_qos) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_qos) by extension 'ros'
+[0.207s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_qos' with type 'ros.ament_python' and name 'learning_qos'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_service) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_service) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_service) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_service) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_service) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_service) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_service) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_service) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_service) by extension 'ros'
+[0.208s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_service' with type 'ros.ament_python' and name 'learning_service'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_service_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_service_cpp) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_service_cpp) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_service_cpp) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_service_cpp) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_service_cpp) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_service_cpp) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_service_cpp) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_service_cpp) by extension 'ros'
+[0.209s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_service_cpp' with type 'ros.ament_cmake' and name 'learning_service_cpp'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_tf) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_tf) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_tf) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_tf) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_tf) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_tf) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_tf) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_tf) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_tf) by extension 'ros'
+[0.209s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_tf' with type 'ros.ament_python' and name 'learning_tf'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_tf_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_tf_cpp) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_tf_cpp) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_tf_cpp) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_tf_cpp) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_tf_cpp) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_tf_cpp) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_tf_cpp) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_tf_cpp) by extension 'ros'
+[0.210s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_tf_cpp' with type 'ros.ament_cmake' and name 'learning_tf_cpp'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_topic) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_topic) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_topic) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_topic) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_topic) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_topic) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_topic) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_topic) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_topic) by extension 'ros'
+[0.211s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_topic' with type 'ros.ament_python' and name 'learning_topic'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_topic_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_topic_cpp) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_topic_cpp) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_topic_cpp) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_topic_cpp) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_topic_cpp) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_topic_cpp) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_topic_cpp) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_topic_cpp) by extension 'ros'
+[0.212s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_topic_cpp' with type 'ros.ament_cmake' and name 'learning_topic_cpp'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_urdf) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_urdf) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_urdf) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_urdf) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_urdf) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_urdf) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_urdf) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_urdf) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_urdf) by extension 'ros'
+[0.213s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_urdf' with type 'ros.ament_python' and name 'learning_urdf'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/log) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/log) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/log) ignored
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/python) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/python) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/python) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/python) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/python) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/python) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/python) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/python) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/python) by extension 'ros'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/python) by extensions ['cmake', 'python']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/python) by extension 'cmake'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/python) by extension 'python'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/python) by extensions ['python_setup_py']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/python) by extension 'python_setup_py'
+[0.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

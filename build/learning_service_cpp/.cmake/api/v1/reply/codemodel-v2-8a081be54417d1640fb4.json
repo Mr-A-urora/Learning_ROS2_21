@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-47b86c36276e0076f6f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "learning_service_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "learning_service_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-learning_service_cpp_uninstall-2a383f59222bafe4feca.json",
+					"name" : "learning_service_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_adder_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_adder_client-e213d221799d06fb0127.json",
+					"name" : "service_adder_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_adder_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_adder_server-869dd1b3ffdbb9bbce9a.json",
+					"name" : "service_adder_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ac566e458d7cc352af2c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mraurora/Learning_ROS2_21/build/learning_service_cpp",
+		"source" : "/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_service_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

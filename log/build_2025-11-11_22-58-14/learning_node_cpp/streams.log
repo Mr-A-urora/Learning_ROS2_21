@@ -1,0 +1,68 @@
+[0.734s] Invoking command in '/home/mraurora/Learning_ROS2_21/build/learning_node_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_node_cpp -DCMAKE_INSTALL_PREFIX=/home/mraurora/Learning_ROS2_21/install/learning_node_cpp
+[1.485s] -- The C compiler identification is GNU 11.4.0
+[1.485s] -- The CXX compiler identification is GNU 11.4.0
+[1.485s] -- Detecting C compiler ABI info
+[1.486s] -- Detecting C compiler ABI info - done
+[1.486s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.486s] -- Detecting C compile features
+[1.487s] -- Detecting C compile features - done
+[1.487s] -- Detecting CXX compiler ABI info
+[1.487s] -- Detecting CXX compiler ABI info - done
+[1.487s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.487s] -- Detecting CXX compile features
+[1.487s] -- Detecting CXX compile features - done
+[1.487s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.487s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.487s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[1.487s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.487s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.487s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.488s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.488s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.488s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.488s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.488s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.488s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.488s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.488s] -- Looking for pthread.h
+[1.488s] -- Looking for pthread.h - found
+[1.488s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.488s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.488s] -- Found Threads: TRUE  
+[1.534s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.600s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.601s] -- Configured cppcheck include dirs: 
+[1.601s] -- Configured cppcheck exclude dirs and/or files: 
+[1.601s] -- Added test 'lint_cmake' to check CMake code style
+[1.601s] -- Added test 'uncrustify' to check C / C++ code style
+[1.601s] -- Configured uncrustify additional arguments: 
+[1.602s] -- Added test 'xmllint' to check XML markup files
+[1.602s] -- Configuring done
+[1.608s] -- Generating done
+[1.610s] -- Build files have been written to: /home/mraurora/Learning_ROS2_21/build/learning_node_cpp
+[1.618s] Invoked command in '/home/mraurora/Learning_ROS2_21/build/learning_node_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_node_cpp -DCMAKE_INSTALL_PREFIX=/home/mraurora/Learning_ROS2_21/install/learning_node_cpp
+[1.620s] Invoking command in '/home/mraurora/Learning_ROS2_21/build/learning_node_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mraurora/Learning_ROS2_21/build/learning_node_cpp -- -j20 -l20
+[1.662s] [ 50%] [32mBuilding CXX object CMakeFiles/node_helloworld_class.dir/src/node_helloworld_class.cpp.o[0m
+[3.866s] [100%] [32m[1mLinking CXX executable node_helloworld_class[0m
+[3.946s] [100%] Built target node_helloworld_class
+[3.957s] Invoked command in '/home/mraurora/Learning_ROS2_21/build/learning_node_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mraurora/Learning_ROS2_21/build/learning_node_cpp -- -j20 -l20
+[3.960s] Invoking command in '/home/mraurora/Learning_ROS2_21/build/learning_node_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mraurora/Learning_ROS2_21/build/learning_node_cpp
+[3.968s] -- Install configuration: ""
+[3.968s] -- Installing: /home/mraurora/Learning_ROS2_21/install/learning_node_cpp/lib/learning_node_cpp/node_helloworld_class
+[3.968s] -- Set runtime path of "/home/mraurora/Learning_ROS2_21/install/learning_node_cpp/lib/learning_node_cpp/node_helloworld_class" to ""
+[3.969s] -- Installing: /home/mraurora/Learning_ROS2_21/install/learning_node_cpp/share/ament_index/resource_index/package_run_dependencies/learning_node_cpp
+[3.969s] -- Installing: /home/mraurora/Learning_ROS2_21/install/learning_node_cpp/share/ament_index/resource_index/parent_prefix_path/learning_node_cpp
+[3.969s] -- Installing: /home/mraurora/Learning_ROS2_21/install/learning_node_cpp/share/learning_node_cpp/environment/ament_prefix_path.sh
+[3.969s] -- Installing: /home/mraurora/Learning_ROS2_21/install/learning_node_cpp/share/learning_node_cpp/environment/ament_prefix_path.dsv
+[3.969s] -- Installing: /home/mraurora/Learning_ROS2_21/install/learning_node_cpp/share/learning_node_cpp/environment/path.sh
+[3.969s] -- Installing: /home/mraurora/Learning_ROS2_21/install/learning_node_cpp/share/learning_node_cpp/environment/path.dsv
+[3.969s] -- Installing: /home/mraurora/Learning_ROS2_21/install/learning_node_cpp/share/learning_node_cpp/local_setup.bash
+[3.970s] -- Installing: /home/mraurora/Learning_ROS2_21/install/learning_node_cpp/share/learning_node_cpp/local_setup.sh
+[3.970s] -- Installing: /home/mraurora/Learning_ROS2_21/install/learning_node_cpp/share/learning_node_cpp/local_setup.zsh
+[3.970s] -- Installing: /home/mraurora/Learning_ROS2_21/install/learning_node_cpp/share/learning_node_cpp/local_setup.dsv
+[3.970s] -- Installing: /home/mraurora/Learning_ROS2_21/install/learning_node_cpp/share/learning_node_cpp/package.dsv
+[3.970s] -- Installing: /home/mraurora/Learning_ROS2_21/install/learning_node_cpp/share/ament_index/resource_index/packages/learning_node_cpp
+[3.970s] -- Installing: /home/mraurora/Learning_ROS2_21/install/learning_node_cpp/share/learning_node_cpp/cmake/learning_node_cppConfig.cmake
+[3.970s] -- Installing: /home/mraurora/Learning_ROS2_21/install/learning_node_cpp/share/learning_node_cpp/cmake/learning_node_cppConfig-version.cmake
+[3.971s] -- Installing: /home/mraurora/Learning_ROS2_21/install/learning_node_cpp/share/learning_node_cpp/package.xml
+[3.973s] Invoked command in '/home/mraurora/Learning_ROS2_21/build/learning_node_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mraurora/Learning_ROS2_21/build/learning_node_cpp

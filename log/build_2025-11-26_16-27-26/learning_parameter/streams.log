@@ -1,0 +1,22 @@
+[2.373s] Invoking command in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_parameter': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/mraurora/Learning_ROS2_21/build/learning_parameter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mraurora/Learning_ROS2_21/install/learning_parameter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_parameter build --build-base /home/mraurora/Learning_ROS2_21/build/learning_parameter/build install --record /home/mraurora/Learning_ROS2_21/build/learning_parameter/install.log --single-version-externally-managed install_data
+[2.531s] running egg_info
+[2.531s] writing ../../../build/learning_parameter/learning_parameter.egg-info/PKG-INFO
+[2.531s] writing dependency_links to ../../../build/learning_parameter/learning_parameter.egg-info/dependency_links.txt
+[2.531s] writing entry points to ../../../build/learning_parameter/learning_parameter.egg-info/entry_points.txt
+[2.531s] writing requirements to ../../../build/learning_parameter/learning_parameter.egg-info/requires.txt
+[2.531s] writing top-level names to ../../../build/learning_parameter/learning_parameter.egg-info/top_level.txt
+[2.532s] reading manifest file '../../../build/learning_parameter/learning_parameter.egg-info/SOURCES.txt'
+[2.533s] writing manifest file '../../../build/learning_parameter/learning_parameter.egg-info/SOURCES.txt'
+[2.533s] running build
+[2.533s] running build_py
+[2.533s] running install
+[2.533s] running install_lib
+[2.534s] running install_data
+[2.534s] running install_egg_info
+[2.536s] removing '/home/mraurora/Learning_ROS2_21/install/learning_parameter/lib/python3.10/site-packages/learning_parameter-0.0.0-py3.10.egg-info' (and everything under it)
+[2.536s] Copying ../../../build/learning_parameter/learning_parameter.egg-info to /home/mraurora/Learning_ROS2_21/install/learning_parameter/lib/python3.10/site-packages/learning_parameter-0.0.0-py3.10.egg-info
+[2.536s] running install_scripts
+[2.551s] Installing param_declare script to /home/mraurora/Learning_ROS2_21/install/learning_parameter/lib/learning_parameter
+[2.551s] Installing param_object_detect script to /home/mraurora/Learning_ROS2_21/install/learning_parameter/lib/learning_parameter
+[2.551s] writing list of installed files to '/home/mraurora/Learning_ROS2_21/build/learning_parameter/install.log'
+[2.571s] Invoked command in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_parameter' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/mraurora/Learning_ROS2_21/build/learning_parameter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mraurora/Learning_ROS2_21/install/learning_parameter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_parameter build --build-base /home/mraurora/Learning_ROS2_21/build/learning_parameter/build install --record /home/mraurora/Learning_ROS2_21/build/learning_parameter/install.log --single-version-externally-managed install_data

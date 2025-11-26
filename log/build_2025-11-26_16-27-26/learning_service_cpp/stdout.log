@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target service_adder_client[0m
+[35m[1mConsolidate compiler generated dependencies of target service_adder_server[0m
+[ 50%] Built target service_adder_client
+[100%] Built target service_adder_server
+-- Install configuration: ""
+-- Up-to-date: /home/mraurora/Learning_ROS2_21/install/learning_service_cpp/lib/learning_service_cpp/service_adder_server
+-- Up-to-date: /home/mraurora/Learning_ROS2_21/install/learning_service_cpp/lib/learning_service_cpp/service_adder_client
+-- Up-to-date: /home/mraurora/Learning_ROS2_21/install/learning_service_cpp/share/ament_index/resource_index/package_run_dependencies/learning_service_cpp
+-- Up-to-date: /home/mraurora/Learning_ROS2_21/install/learning_service_cpp/share/ament_index/resource_index/parent_prefix_path/learning_service_cpp
+-- Up-to-date: /home/mraurora/Learning_ROS2_21/install/learning_service_cpp/share/learning_service_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/mraurora/Learning_ROS2_21/install/learning_service_cpp/share/learning_service_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mraurora/Learning_ROS2_21/install/learning_service_cpp/share/learning_service_cpp/environment/path.sh
+-- Up-to-date: /home/mraurora/Learning_ROS2_21/install/learning_service_cpp/share/learning_service_cpp/environment/path.dsv
+-- Up-to-date: /home/mraurora/Learning_ROS2_21/install/learning_service_cpp/share/learning_service_cpp/local_setup.bash
+-- Up-to-date: /home/mraurora/Learning_ROS2_21/install/learning_service_cpp/share/learning_service_cpp/local_setup.sh
+-- Up-to-date: /home/mraurora/Learning_ROS2_21/install/learning_service_cpp/share/learning_service_cpp/local_setup.zsh
+-- Up-to-date: /home/mraurora/Learning_ROS2_21/install/learning_service_cpp/share/learning_service_cpp/local_setup.dsv
+-- Installing: /home/mraurora/Learning_ROS2_21/install/learning_service_cpp/share/learning_service_cpp/package.dsv
+-- Up-to-date: /home/mraurora/Learning_ROS2_21/install/learning_service_cpp/share/ament_index/resource_index/packages/learning_service_cpp
+-- Up-to-date: /home/mraurora/Learning_ROS2_21/install/learning_service_cpp/share/learning_service_cpp/cmake/learning_service_cppConfig.cmake
+-- Up-to-date: /home/mraurora/Learning_ROS2_21/install/learning_service_cpp/share/learning_service_cpp/cmake/learning_service_cppConfig-version.cmake
+-- Up-to-date: /home/mraurora/Learning_ROS2_21/install/learning_service_cpp/share/learning_service_cpp/package.xml

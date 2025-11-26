@@ -1,0 +1,22 @@
+[0.782s] Invoking command in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_action': CMAKE_PREFIX_PATH=/home/mraurora/Learning_ROS2_21/install/learning_interface:/home/mraurora/Learning_ROS2_21/install/learning_topic_cpp:/home/mraurora/Learning_ROS2_21/install/learning_tf_cpp:/home/mraurora/Learning_ROS2_21/install/learning_service_cpp:/home/mraurora/Learning_ROS2_21/install/learning_pkg_c:/home/mraurora/Learning_ROS2_21/install/learning_parameter_cpp:/home/mraurora/Learning_ROS2_21/install/learning_node_cpp:/home/mraurora/Learning_ROS2_21/install/learning_action_cpp CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/mraurora/Learning_ROS2_21/build/learning_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mraurora/Learning_ROS2_21/install/learning_action/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_action build --build-base /home/mraurora/Learning_ROS2_21/build/learning_action/build install --record /home/mraurora/Learning_ROS2_21/build/learning_action/install.log --single-version-externally-managed install_data
+[0.928s] running egg_info
+[0.929s] writing ../../../build/learning_action/learning_action.egg-info/PKG-INFO
+[0.929s] writing dependency_links to ../../../build/learning_action/learning_action.egg-info/dependency_links.txt
+[0.929s] writing entry points to ../../../build/learning_action/learning_action.egg-info/entry_points.txt
+[0.929s] writing requirements to ../../../build/learning_action/learning_action.egg-info/requires.txt
+[0.929s] writing top-level names to ../../../build/learning_action/learning_action.egg-info/top_level.txt
+[0.930s] reading manifest file '../../../build/learning_action/learning_action.egg-info/SOURCES.txt'
+[0.930s] writing manifest file '../../../build/learning_action/learning_action.egg-info/SOURCES.txt'
+[0.931s] running build
+[0.931s] running build_py
+[0.931s] running install
+[0.931s] running install_lib
+[0.932s] running install_data
+[0.932s] running install_egg_info
+[0.933s] removing '/home/mraurora/Learning_ROS2_21/install/learning_action/lib/python3.10/site-packages/learning_action-0.0.0-py3.10.egg-info' (and everything under it)
+[0.933s] Copying ../../../build/learning_action/learning_action.egg-info to /home/mraurora/Learning_ROS2_21/install/learning_action/lib/python3.10/site-packages/learning_action-0.0.0-py3.10.egg-info
+[0.933s] running install_scripts
+[0.948s] Installing action_move_client script to /home/mraurora/Learning_ROS2_21/install/learning_action/lib/learning_action
+[0.948s] Installing action_move_server script to /home/mraurora/Learning_ROS2_21/install/learning_action/lib/learning_action
+[0.948s] writing list of installed files to '/home/mraurora/Learning_ROS2_21/build/learning_action/install.log'
+[0.965s] Invoked command in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_action' returned '0': CMAKE_PREFIX_PATH=/home/mraurora/Learning_ROS2_21/install/learning_interface:/home/mraurora/Learning_ROS2_21/install/learning_topic_cpp:/home/mraurora/Learning_ROS2_21/install/learning_tf_cpp:/home/mraurora/Learning_ROS2_21/install/learning_service_cpp:/home/mraurora/Learning_ROS2_21/install/learning_pkg_c:/home/mraurora/Learning_ROS2_21/install/learning_parameter_cpp:/home/mraurora/Learning_ROS2_21/install/learning_node_cpp:/home/mraurora/Learning_ROS2_21/install/learning_action_cpp CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/mraurora/Learning_ROS2_21/build/learning_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mraurora/Learning_ROS2_21/install/learning_action/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_action build --build-base /home/mraurora/Learning_ROS2_21/build/learning_action/build install --record /home/mraurora/Learning_ROS2_21/build/learning_action/install.log --single-version-externally-managed install_data

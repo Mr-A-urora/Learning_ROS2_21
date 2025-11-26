@@ -1,0 +1,21 @@
+[2.800s] Invoking command in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_cv': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/mraurora/Learning_ROS2_21/build/learning_cv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mraurora/Learning_ROS2_21/install/learning_cv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_cv build --build-base /home/mraurora/Learning_ROS2_21/build/learning_cv/build install --record /home/mraurora/Learning_ROS2_21/build/learning_cv/install.log --single-version-externally-managed install_data
+[3.138s] running egg_info
+[3.139s] writing ../../../build/learning_cv/learning_cv.egg-info/PKG-INFO
+[3.141s] writing dependency_links to ../../../build/learning_cv/learning_cv.egg-info/dependency_links.txt
+[3.141s] writing entry points to ../../../build/learning_cv/learning_cv.egg-info/entry_points.txt
+[3.141s] writing requirements to ../../../build/learning_cv/learning_cv.egg-info/requires.txt
+[3.141s] writing top-level names to ../../../build/learning_cv/learning_cv.egg-info/top_level.txt
+[3.145s] reading manifest file '../../../build/learning_cv/learning_cv.egg-info/SOURCES.txt'
+[3.148s] writing manifest file '../../../build/learning_cv/learning_cv.egg-info/SOURCES.txt'
+[3.148s] running build
+[3.148s] running build_py
+[3.154s] running install
+[3.155s] running install_lib
+[3.158s] running install_data
+[3.158s] running install_egg_info
+[3.161s] removing '/home/mraurora/Learning_ROS2_21/install/learning_cv/lib/python3.10/site-packages/learning_cv-0.0.0-py3.10.egg-info' (and everything under it)
+[3.161s] Copying ../../../build/learning_cv/learning_cv.egg-info to /home/mraurora/Learning_ROS2_21/install/learning_cv/lib/python3.10/site-packages/learning_cv-0.0.0-py3.10.egg-info
+[3.163s] running install_scripts
+[3.194s] Installing cv_bridge_test script to /home/mraurora/Learning_ROS2_21/install/learning_cv/lib/learning_cv
+[3.195s] writing list of installed files to '/home/mraurora/Learning_ROS2_21/build/learning_cv/install.log'
+[3.289s] Invoked command in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_cv' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/mraurora/Learning_ROS2_21/build/learning_cv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mraurora/Learning_ROS2_21/install/learning_cv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_cv build --build-base /home/mraurora/Learning_ROS2_21/build/learning_cv/build install --record /home/mraurora/Learning_ROS2_21/build/learning_cv/install.log --single-version-externally-managed install_data

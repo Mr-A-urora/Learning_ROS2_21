@@ -1,0 +1,51 @@
+[1.873s] Invoking command in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_tf': PYTHONPATH=/home/mraurora/Learning_ROS2_21/build/learning_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mraurora/Learning_ROS2_21/install/learning_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_tf build --build-base /home/mraurora/Learning_ROS2_21/build/learning_tf/build install --record /home/mraurora/Learning_ROS2_21/build/learning_tf/install.log --single-version-externally-managed install_data
+[2.141s] running egg_info
+[2.142s] creating ../../../build/learning_tf/learning_tf.egg-info
+[2.142s] writing ../../../build/learning_tf/learning_tf.egg-info/PKG-INFO
+[2.142s] writing dependency_links to ../../../build/learning_tf/learning_tf.egg-info/dependency_links.txt
+[2.143s] writing entry points to ../../../build/learning_tf/learning_tf.egg-info/entry_points.txt
+[2.143s] writing requirements to ../../../build/learning_tf/learning_tf.egg-info/requires.txt
+[2.143s] writing top-level names to ../../../build/learning_tf/learning_tf.egg-info/top_level.txt
+[2.143s] writing manifest file '../../../build/learning_tf/learning_tf.egg-info/SOURCES.txt'
+[2.145s] reading manifest file '../../../build/learning_tf/learning_tf.egg-info/SOURCES.txt'
+[2.146s] writing manifest file '../../../build/learning_tf/learning_tf.egg-info/SOURCES.txt'
+[2.146s] running build
+[2.146s] running build_py
+[2.146s] creating /home/mraurora/Learning_ROS2_21/build/learning_tf/build
+[2.146s] creating /home/mraurora/Learning_ROS2_21/build/learning_tf/build/lib
+[2.146s] creating /home/mraurora/Learning_ROS2_21/build/learning_tf/build/lib/learning_tf
+[2.146s] copying learning_tf/tf_listener.py -> /home/mraurora/Learning_ROS2_21/build/learning_tf/build/lib/learning_tf
+[2.146s] copying learning_tf/turtle_tf_broadcaster.py -> /home/mraurora/Learning_ROS2_21/build/learning_tf/build/lib/learning_tf
+[2.147s] copying learning_tf/turtle_following.py -> /home/mraurora/Learning_ROS2_21/build/learning_tf/build/lib/learning_tf
+[2.147s] copying learning_tf/__init__.py -> /home/mraurora/Learning_ROS2_21/build/learning_tf/build/lib/learning_tf
+[2.147s] copying learning_tf/static_tf_broadcaster.py -> /home/mraurora/Learning_ROS2_21/build/learning_tf/build/lib/learning_tf
+[2.147s] running install
+[2.147s] running install_lib
+[2.148s] creating /home/mraurora/Learning_ROS2_21/install/learning_tf/lib/python3.10/site-packages/learning_tf
+[2.148s] copying /home/mraurora/Learning_ROS2_21/build/learning_tf/build/lib/learning_tf/tf_listener.py -> /home/mraurora/Learning_ROS2_21/install/learning_tf/lib/python3.10/site-packages/learning_tf
+[2.148s] copying /home/mraurora/Learning_ROS2_21/build/learning_tf/build/lib/learning_tf/turtle_tf_broadcaster.py -> /home/mraurora/Learning_ROS2_21/install/learning_tf/lib/python3.10/site-packages/learning_tf
+[2.148s] copying /home/mraurora/Learning_ROS2_21/build/learning_tf/build/lib/learning_tf/turtle_following.py -> /home/mraurora/Learning_ROS2_21/install/learning_tf/lib/python3.10/site-packages/learning_tf
+[2.149s] copying /home/mraurora/Learning_ROS2_21/build/learning_tf/build/lib/learning_tf/__init__.py -> /home/mraurora/Learning_ROS2_21/install/learning_tf/lib/python3.10/site-packages/learning_tf
+[2.149s] copying /home/mraurora/Learning_ROS2_21/build/learning_tf/build/lib/learning_tf/static_tf_broadcaster.py -> /home/mraurora/Learning_ROS2_21/install/learning_tf/lib/python3.10/site-packages/learning_tf
+[2.149s] byte-compiling /home/mraurora/Learning_ROS2_21/install/learning_tf/lib/python3.10/site-packages/learning_tf/tf_listener.py to tf_listener.cpython-310.pyc
+[2.150s] byte-compiling /home/mraurora/Learning_ROS2_21/install/learning_tf/lib/python3.10/site-packages/learning_tf/turtle_tf_broadcaster.py to turtle_tf_broadcaster.cpython-310.pyc
+[2.151s] byte-compiling /home/mraurora/Learning_ROS2_21/install/learning_tf/lib/python3.10/site-packages/learning_tf/turtle_following.py to turtle_following.cpython-310.pyc
+[2.151s] byte-compiling /home/mraurora/Learning_ROS2_21/install/learning_tf/lib/python3.10/site-packages/learning_tf/__init__.py to __init__.cpython-310.pyc
+[2.152s] byte-compiling /home/mraurora/Learning_ROS2_21/install/learning_tf/lib/python3.10/site-packages/learning_tf/static_tf_broadcaster.py to static_tf_broadcaster.cpython-310.pyc
+[2.152s] running install_data
+[2.152s] creating /home/mraurora/Learning_ROS2_21/install/learning_tf/share/ament_index
+[2.152s] creating /home/mraurora/Learning_ROS2_21/install/learning_tf/share/ament_index/resource_index
+[2.152s] creating /home/mraurora/Learning_ROS2_21/install/learning_tf/share/ament_index/resource_index/packages
+[2.152s] copying resource/learning_tf -> /home/mraurora/Learning_ROS2_21/install/learning_tf/share/ament_index/resource_index/packages
+[2.153s] copying package.xml -> /home/mraurora/Learning_ROS2_21/install/learning_tf/share/learning_tf
+[2.153s] creating /home/mraurora/Learning_ROS2_21/install/learning_tf/share/learning_tf/launch
+[2.153s] copying launch/turtle_following_demo.launch.py -> /home/mraurora/Learning_ROS2_21/install/learning_tf/share/learning_tf/launch
+[2.153s] running install_egg_info
+[2.155s] Copying ../../../build/learning_tf/learning_tf.egg-info to /home/mraurora/Learning_ROS2_21/install/learning_tf/lib/python3.10/site-packages/learning_tf-0.0.0-py3.10.egg-info
+[2.156s] running install_scripts
+[2.180s] Installing static_tf_broadcaster script to /home/mraurora/Learning_ROS2_21/install/learning_tf/lib/learning_tf
+[2.180s] Installing tf_listener script to /home/mraurora/Learning_ROS2_21/install/learning_tf/lib/learning_tf
+[2.180s] Installing turtle_following script to /home/mraurora/Learning_ROS2_21/install/learning_tf/lib/learning_tf
+[2.180s] Installing turtle_tf_broadcaster script to /home/mraurora/Learning_ROS2_21/install/learning_tf/lib/learning_tf
+[2.181s] writing list of installed files to '/home/mraurora/Learning_ROS2_21/build/learning_tf/install.log'
+[2.211s] Invoked command in '/home/mraurora/Learning_ROS2_21/src/ros2_21_tutorials/learning_tf' returned '0': PYTHONPATH=/home/mraurora/Learning_ROS2_21/build/learning_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mraurora/Learning_ROS2_21/install/learning_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_tf build --build-base /home/mraurora/Learning_ROS2_21/build/learning_tf/build install --record /home/mraurora/Learning_ROS2_21/build/learning_tf/install.log --single-version-externally-managed install_data

@@ -1,0 +1,51 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 16.0.16 (/opt/ros/humble/share/rclcpp_action/cmake)
+-- Found learning_interface: 0.0.0 (/home/mraurora/Learning_ROS2_21/install/learning_interface/share/learning_interface/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mraurora/Learning_ROS2_21/build/learning_action_cpp
+[35m[1mConsolidate compiler generated dependencies of target action_move_server[0m
+[35m[1mConsolidate compiler generated dependencies of target action_move_client[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/action_move_client.dir/src/action_move_client.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/action_move_server.dir/src/action_move_server.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable action_move_server[0m
+[ 75%] Built target action_move_server
+[100%] [32m[1mLinking CXX executable action_move_client[0m
+[100%] Built target action_move_client
+-- Install configuration: ""
+-- Installing: /home/mraurora/Learning_ROS2_21/install/learning_action_cpp/lib/learning_action_cpp/action_move_server
+-- Set runtime path of "/home/mraurora/Learning_ROS2_21/install/learning_action_cpp/lib/learning_action_cpp/action_move_server" to ""
+-- Installing: /home/mraurora/Learning_ROS2_21/install/learning_action_cpp/lib/learning_action_cpp/action_move_client
+-- Set runtime path of "/home/mraurora/Learning_ROS2_21/install/learning_action_cpp/lib/learning_action_cpp/action_move_client" to ""
+-- Up-to-date: /home/mraurora/Learning_ROS2_21/install/learning_action_cpp/share/ament_index/resource_index/package_run_dependencies/learning_action_cpp
+-- Installing: /home/mraurora/Learning_ROS2_21/install/learning_action_cpp/share/ament_index/resource_index/parent_prefix_path/learning_action_cpp
+-- Up-to-date: /home/mraurora/Learning_ROS2_21/install/learning_action_cpp/share/learning_action_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/mraurora/Learning_ROS2_21/install/learning_action_cpp/share/learning_action_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mraurora/Learning_ROS2_21/install/learning_action_cpp/share/learning_action_cpp/environment/path.sh
+-- Installing: /home/mraurora/Learning_ROS2_21/install/learning_action_cpp/share/learning_action_cpp/environment/path.dsv
+-- Up-to-date: /home/mraurora/Learning_ROS2_21/install/learning_action_cpp/share/learning_action_cpp/local_setup.bash
+-- Up-to-date: /home/mraurora/Learning_ROS2_21/install/learning_action_cpp/share/learning_action_cpp/local_setup.sh
+-- Up-to-date: /home/mraurora/Learning_ROS2_21/install/learning_action_cpp/share/learning_action_cpp/local_setup.zsh
+-- Installing: /home/mraurora/Learning_ROS2_21/install/learning_action_cpp/share/learning_action_cpp/local_setup.dsv
+-- Installing: /home/mraurora/Learning_ROS2_21/install/learning_action_cpp/share/learning_action_cpp/package.dsv
+-- Up-to-date: /home/mraurora/Learning_ROS2_21/install/learning_action_cpp/share/ament_index/resource_index/packages/learning_action_cpp
+-- Up-to-date: /home/mraurora/Learning_ROS2_21/install/learning_action_cpp/share/learning_action_cpp/cmake/learning_action_cppConfig.cmake
+-- Up-to-date: /home/mraurora/Learning_ROS2_21/install/learning_action_cpp/share/learning_action_cpp/cmake/learning_action_cppConfig-version.cmake
+-- Up-to-date: /home/mraurora/Learning_ROS2_21/install/learning_action_cpp/share/learning_action_cpp/package.xml
