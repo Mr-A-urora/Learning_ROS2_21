@@ -1,0 +1,19 @@
+# VSCode
+.vscode/
+*.code-workspace
+
+# 二进制文件
+*.db
+*.sqlite
+*.so
+*.o
+*.a
+
+# 编译文件
+build/
+install/
+log/
+
+# 其他
+*.pyc
+__pycache__/
