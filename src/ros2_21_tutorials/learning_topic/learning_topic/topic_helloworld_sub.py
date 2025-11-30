@@ -14,11 +14,9 @@ from std_msgs.msg import String                  # ROS2标准定义的String消�
 创建一个订阅者节点
 """
 class SubscriberNode(Node):
-    
     def __init__(self, name):
         super().__init__(name)                                    # ROS2节点父类初始化
-        self.sub = self.create_subscription(\
-            String, "chatter", self.listener_callback, 10)        # 创建订阅者对象（消息类型、话题名、订阅者回调函数、队列长度）
+        self.sub = self.create_subscription(String, "chatter", self.listener_callback, 10)        # 创建订阅者对象（消息类型、话题名、订阅者回调函数、队列长度）
 
     def listener_callback(self, msg):                             # 创建回调函数，执行收到话题消息后对数据的处理
         self.get_logger().info('I heard: "%s"' % msg.data)        # 输出日志信息，提示订阅收到的话题消息

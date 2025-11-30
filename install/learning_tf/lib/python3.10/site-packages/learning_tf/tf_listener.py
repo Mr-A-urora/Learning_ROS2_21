@@ -46,8 +46,7 @@ class TFListener(Node):
         pos  = trans.transform.translation                          # 获取位置信息
         quat = trans.transform.rotation                             # 获取姿态信息（四元数）
         euler = tf_transformations.euler_from_quaternion([quat.x, quat.y, quat.z, quat.w])
-        self.get_logger().info('Get %s --> %s transform: [%f, %f, %f] [%f, %f, %f]' 
-          % (self.source_frame, self.target_frame, pos.x, pos.y, pos.z, euler[0], euler[1], euler[2]))
+        self.get_logger().info('Get %s --> %s transform: [%f, %f, %f] [%f, %f, %f]' % (self.source_frame, self.target_frame, pos.x, pos.y, pos.z, euler[0], euler[1], euler[2]))
 
 def main(args=None):
     rclpy.init(args=args)                       # ROS2 Python接口初始化

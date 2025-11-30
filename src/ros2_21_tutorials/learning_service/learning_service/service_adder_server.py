@@ -7,7 +7,7 @@
 """
 
 import rclpy                                     # ROS2 Python接口库
-from rclpy.node   import Node                    # ROS2 节点类
+from rclpy.node import Node                    # ROS2 节点类
 from learning_interface.srv import AddTwoInts    # 自定义的服务接口
 
 class adderServer(Node):

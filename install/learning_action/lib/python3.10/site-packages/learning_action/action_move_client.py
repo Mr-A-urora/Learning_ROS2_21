@@ -26,7 +26,7 @@ class MoveCircleActionClient(Node):
         self._send_goal_future = self._action_client.send_goal_async(   # 异步方式发送动作的目标
             goal_msg,                                                   # 动作目标
             feedback_callback=self.feedback_callback)                   # 处理周期反馈消息的回调函数
-                          
+
         self._send_goal_future.add_done_callback(self.goal_response_callback) # 设置一个服务器收到目标之后反馈时的回调函数
 
     def goal_response_callback(self, future):           # 创建一个服务器收到目标之后反馈时的回调函数

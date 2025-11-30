@@ -9,7 +9,6 @@ from launch_ros.actions import Node
 
 import xacro
 
-
 def generate_launch_description():
 
     # Check if we're told to use sim time
@@ -28,7 +27,6 @@ def generate_launch_description():
         output='screen',
         parameters=[params]
     )
-
 
     # Launch!
     return LaunchDescription([

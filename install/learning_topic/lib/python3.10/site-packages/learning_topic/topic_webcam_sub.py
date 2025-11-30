@@ -38,8 +38,7 @@ class ImageSubscriber(Node):
 
             (x, y, w, h) = cv2.boundingRect(cnt)                # 得到苹果所在轮廓的左上角xy像素坐标及轮廓范围的宽和高
             cv2.drawContours(image, [cnt], -1, (0, 255, 0), 2)  # 将苹果的轮廓勾勒出来
-            cv2.circle(image, (int(x+w/2), int(y+h/2)), 5,
-                       (0, 255, 0), -1)                         # 将苹果的图像中心点画出来
+            cv2.circle(image, (int(x+w/2), int(y+h/2)), 5, (0, 255, 0), -1)                         # 将苹果的图像中心点画出来
 
         cv2.imshow("object", image)                             # 使用OpenCV显示处理后的图像效果
         cv2.waitKey(10)

@@ -6,14 +6,11 @@ from launch_ros.actions import Node                    # 节点启动的描述�
 
 
 def generate_launch_description():                     # 自动生成launch文件的函数
-   background_r_launch_arg = DeclareLaunchArgument(
-      'background_r', default_value=TextSubstitution(text='0')     # 创建一个Launch文件内参数（arg）background_r
+   background_r_launch_arg = DeclareLaunchArgument('background_r', default_value=TextSubstitution(text='0')     # 创建一个Launch文件内参数（arg）background_r
    )
-   background_g_launch_arg = DeclareLaunchArgument(
-      'background_g', default_value=TextSubstitution(text='84')    # 创建一个Launch文件内参数（arg）background_g
+   background_g_launch_arg = DeclareLaunchArgument('background_g', default_value=TextSubstitution(text='84')    # 创建一个Launch文件内参数（arg）background_g
    )
-   background_b_launch_arg = DeclareLaunchArgument(
-      'background_b', default_value=TextSubstitution(text='122')   # 创建一个Launch文件内参数（arg）background_b
+   background_b_launch_arg = DeclareLaunchArgument('background_b', default_value=TextSubstitution(text='122')   # 创建一个Launch文件内参数（arg）background_b
    )
 
    return LaunchDescription([                                      # 返回launch文件的描述信息
